@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
+import NavBar from '@/components/NavBar';
 
 const basePath = '/mythos-pwa';
 
@@ -56,6 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${pretendard.variable} ${notoSerif.variable} ${garamond.variable}`}
     >
       <body className="font-sans bg-bg-primary text-ink-primary">
+        <NavBar />
         {children}
       </body>
     </html>

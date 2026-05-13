@@ -34,7 +34,7 @@ export default function TreeView() {
   const [selected, setSelected] = useState<Character | null>(null);
 
   return (
-    <main className="flex flex-col h-[100dvh] px-4 py-4">
+    <main className="flex flex-col h-[calc(100dvh-3rem)] px-4 py-4">
       <header className="mb-3 flex items-baseline justify-between">
         <div>
           <h1 className="text-2xl font-semibold">계보도</h1>
