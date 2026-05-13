@@ -1,0 +1,855 @@
+{
+  "version": "0.1.0",
+  "tier": 1,
+  "schema_note": "grc_translit follows scholarly Greek transliteration (acute accents preserved). la is the Roman equivalent name (Latin nominative). la_note clarifies relationship when needed.",
+  "characters": [
+    {
+      "id": "chaos",
+      "tier": 1,
+      "category": "원시신",
+      "names": {
+        "ko": "카오스",
+        "en": "Chaos",
+        "grc": "Χάος",
+        "grc_translit": "Cháos",
+        "la": "Chaos",
+        "la_note": "음차 동일"
+      },
+      "role": "태초의 공허, 만물의 시원",
+      "domains": ["공허", "심연", "시원"],
+      "symbols": ["어둠", "심연"],
+      "family": {
+        "parents": [],
+        "consorts": [],
+        "children": ["gaia", "tartarus", "eros_primordial", "erebus", "nyx"],
+        "siblings": []
+      },
+      "story_hooks": [
+        "헤시오도스 『신통기』의 첫 존재",
+        "모든 신과 세계의 출발점"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "gaia",
+      "tier": 1,
+      "category": "원시신",
+      "names": {
+        "ko": "가이아",
+        "en": "Gaia",
+        "grc": "Γαῖα",
+        "grc_translit": "Gaîa",
+        "la": "Terra",
+        "la_note": "로마식 이름 (영어 Terra/Tellus)"
+      },
+      "role": "대지의 여신, 만물의 어머니",
+      "domains": ["대지", "생명", "다산"],
+      "symbols": ["대지", "과실", "뱀"],
+      "family": {
+        "parents": ["chaos"],
+        "consorts": ["uranus", "pontus", "tartarus"],
+        "children": ["uranus", "pontus", "ourea", "cronus", "rhea", "oceanus", "hyperion", "theia", "themis", "mnemosyne", "coeus", "phoebe", "crius", "iapetus", "cyclopes", "hekatonkheires"],
+        "siblings": ["tartarus", "eros_primordial", "erebus", "nyx"]
+      },
+      "story_hooks": [
+        "우라노스를 낳고 다시 결합해 티탄을 낳음",
+        "크로노스에게 우라노스 거세를 사주",
+        "기간테스 전쟁의 배후"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "uranus",
+      "tier": 1,
+      "category": "원시신",
+      "names": {
+        "ko": "우라노스",
+        "en": "Uranus",
+        "grc": "Οὐρανός",
+        "grc_translit": "Ouranós",
+        "la": "Caelus",
+        "la_note": "로마식 이름 (영어 Uranus)"
+      },
+      "role": "하늘의 신, 1세대 지배자",
+      "domains": ["하늘", "천공"],
+      "symbols": ["별이 빛나는 하늘"],
+      "family": {
+        "parents": ["gaia"],
+        "consorts": ["gaia"],
+        "children": ["cronus", "rhea", "oceanus", "hyperion", "theia", "themis", "mnemosyne", "coeus", "phoebe", "crius", "iapetus", "cyclopes", "hekatonkheires", "aphrodite"],
+        "siblings": ["pontus", "ourea"]
+      },
+      "story_hooks": [
+        "크로노스에게 거세당하며 권좌 상실",
+        "잘려나간 성기에서 아프로디테 탄생",
+        "흘린 피에서 기간테스와 에리니에스 탄생"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "cronus",
+      "tier": 1,
+      "category": "티탄",
+      "names": {
+        "ko": "크로노스",
+        "en": "Cronus",
+        "grc": "Κρόνος",
+        "grc_translit": "Krónos",
+        "la": "Saturnus",
+        "la_note": "로마식 이름 (영어 Saturn). 크로노스(시간 Χρόνος)와 혼동 주의"
+      },
+      "role": "티탄의 왕, 2세대 지배자",
+      "domains": ["시대", "수확", "왕권"],
+      "symbols": ["낫", "곡식"],
+      "family": {
+        "parents": ["uranus", "gaia"],
+        "consorts": ["rhea"],
+        "children": ["hestia", "demeter", "hera", "hades", "poseidon", "zeus", "chiron"],
+        "siblings": ["rhea", "oceanus", "hyperion", "theia", "themis", "mnemosyne", "coeus", "phoebe", "crius", "iapetus"]
+      },
+      "story_hooks": [
+        "아버지 우라노스를 낫으로 거세",
+        "자식들을 삼킴 (제우스만 레아의 속임수로 생존)",
+        "티타노마키아에서 제우스에게 패배",
+        "황금시대(Saturnia regna)의 지배자"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "rhea",
+      "tier": 1,
+      "category": "티탄",
+      "names": {
+        "ko": "레아",
+        "en": "Rhea",
+        "grc": "Ῥέα",
+        "grc_translit": "Rhéa",
+        "la": "Ops",
+        "la_note": "로마식 이름 (Ops 또는 Magna Mater)"
+      },
+      "role": "티탄 여신, 신들의 어머니",
+      "domains": ["다산", "어머니 대지"],
+      "symbols": ["사자", "북(템파니)"],
+      "family": {
+        "parents": ["uranus", "gaia"],
+        "consorts": ["cronus"],
+        "children": ["hestia", "demeter", "hera", "hades", "poseidon", "zeus"],
+        "siblings": ["cronus", "oceanus", "hyperion", "theia", "themis", "mnemosyne", "coeus", "phoebe", "crius", "iapetus"]
+      },
+      "story_hooks": [
+        "제우스를 크레타에 숨기고 크로노스에게 돌멩이를 먹임",
+        "키벨레와 동일시되며 사자 수레를 탐"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "zeus",
+      "tier": 1,
+      "category": "올림포스",
+      "names": {
+        "ko": "제우스",
+        "en": "Zeus",
+        "grc": "Ζεύς",
+        "grc_translit": "Zeús",
+        "la": "Iuppiter",
+        "la_note": "로마식 이름 (영어 Jupiter, 속격 Iovis)"
+      },
+      "role": "신들의 왕, 하늘과 천둥의 신",
+      "domains": ["하늘", "천둥", "정의", "왕권", "환대"],
+      "symbols": ["번개", "독수리", "참나무", "홀(scepter)"],
+      "family": {
+        "parents": ["cronus", "rhea"],
+        "consorts": ["hera", "metis", "themis", "demeter", "leto", "maia", "dione", "semele", "alcmene", "leda", "europa", "io"],
+        "children": ["athena", "apollo", "artemis", "ares", "hephaestus", "hebe", "eileithyia", "hermes", "dionysus", "persephone", "perseus", "heracles", "helen", "polydeuces", "minos", "rhadamanthus", "sarpedon", "muses", "horae", "moirai"],
+        "siblings": ["hestia", "demeter", "hera", "hades", "poseidon"]
+      },
+      "story_hooks": [
+        "크로노스를 물리치고 티타노마키아 승리",
+        "기간테스 전쟁과 티폰과의 결전",
+        "수많은 변신과 외도(백조→레다, 황소→에우로페, 황금비→다나에)",
+        "프로메테우스 처벌과 인류 홍수"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "hera",
+      "tier": 1,
+      "category": "올림포스",
+      "names": {
+        "ko": "헤라",
+        "en": "Hera",
+        "grc": "Ἥρα",
+        "grc_translit": "Hḗra",
+        "la": "Iuno",
+        "la_note": "로마식 이름 (영어 Juno)"
+      },
+      "role": "결혼과 가정의 여신, 신들의 여왕",
+      "domains": ["결혼", "가정", "출산", "여왕권"],
+      "symbols": ["공작", "석류", "다이아뎀", "암소"],
+      "family": {
+        "parents": ["cronus", "rhea"],
+        "consorts": ["zeus"],
+        "children": ["ares", "hephaestus", "hebe", "eileithyia"],
+        "siblings": ["zeus", "hestia", "demeter", "hades", "poseidon"]
+      },
+      "story_hooks": [
+        "제우스의 외도 상대들과 사생아들에 끝없는 복수",
+        "헤라클레스 박해(이름 자체가 '헤라의 영광')",
+        "파리스의 심판에서 패배 → 트로이 전쟁"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "poseidon",
+      "tier": 1,
+      "category": "올림포스",
+      "names": {
+        "ko": "포세이돈",
+        "en": "Poseidon",
+        "grc": "Ποσειδῶν",
+        "grc_translit": "Poseidôn",
+        "la": "Neptunus",
+        "la_note": "로마식 이름 (영어 Neptune)"
+      },
+      "role": "바다와 지진, 말의 신",
+      "domains": ["바다", "지진", "말", "폭풍"],
+      "symbols": ["삼지창", "말", "돌고래", "황소"],
+      "family": {
+        "parents": ["cronus", "rhea"],
+        "consorts": ["amphitrite", "medusa", "demeter"],
+        "children": ["triton", "polyphemus", "pegasus", "chrysaor", "theseus_alleged"],
+        "siblings": ["zeus", "hera", "hestia", "demeter", "hades"]
+      },
+      "story_hooks": [
+        "아테네 수호신 자리를 두고 아테나와 경쟁",
+        "오디세우스를 10년간 괴롭힘 (폴리페모스 복수)",
+        "메두사와의 관계로 페가소스 탄생"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "hades",
+      "tier": 1,
+      "category": "지하세계",
+      "names": {
+        "ko": "하데스",
+        "en": "Hades",
+        "grc": "Ἅιδης",
+        "grc_translit": "Háidēs",
+        "la": "Pluto",
+        "la_note": "로마식 이름은 Pluto(Πλούτων '부유한 자')가 일반적; Dis Pater도 사용"
+      },
+      "role": "지하세계의 왕, 죽음의 신",
+      "domains": ["지하세계", "죽음", "부(지하의 광물)"],
+      "symbols": ["두 갈래 창(bident)", "케르베로스", "투구(보이지 않게 함)"],
+      "family": {
+        "parents": ["cronus", "rhea"],
+        "consorts": ["persephone"],
+        "children": ["macaria"],
+        "siblings": ["zeus", "hera", "hestia", "demeter", "poseidon"]
+      },
+      "story_hooks": [
+        "페르세포네 납치로 계절의 기원",
+        "오르페우스의 아내 에우리디케 청을 들어줌(조건부)",
+        "올림포스 12신에서 보통 제외됨"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "demeter",
+      "tier": 1,
+      "category": "올림포스",
+      "names": {
+        "ko": "데메테르",
+        "en": "Demeter",
+        "grc": "Δημήτηρ",
+        "grc_translit": "Dēmḗtēr",
+        "la": "Ceres",
+        "la_note": "로마식 이름 (영어 Ceres, cereal의 어원)"
+      },
+      "role": "농경과 곡물의 여신",
+      "domains": ["농경", "곡물", "수확", "어머니"],
+      "symbols": ["밀이삭", "횃불", "돼지"],
+      "family": {
+        "parents": ["cronus", "rhea"],
+        "consorts": ["zeus", "poseidon", "iasion"],
+        "children": ["persephone", "plutus", "arion", "despoina"],
+        "siblings": ["zeus", "hera", "hestia", "hades", "poseidon"]
+      },
+      "story_hooks": [
+        "딸 페르세포네 납치 후 슬픔으로 대지 황폐화",
+        "엘레우시스 비의(Eleusinian Mysteries)의 중심"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "hestia",
+      "tier": 1,
+      "category": "올림포스",
+      "names": {
+        "ko": "헤스티아",
+        "en": "Hestia",
+        "grc": "Ἑστία",
+        "grc_translit": "Hestía",
+        "la": "Vesta",
+        "la_note": "로마식 이름 (Vesta, 베스타 여사제로 유명)"
+      },
+      "role": "화로와 가정의 여신",
+      "domains": ["화로", "가정", "공공의 불"],
+      "symbols": ["화로의 불", "당나귀", "베일"],
+      "family": {
+        "parents": ["cronus", "rhea"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["zeus", "hera", "demeter", "hades", "poseidon"]
+      },
+      "story_hooks": [
+        "처녀 신으로 결혼 거부",
+        "디오니소스에게 올림포스 자리를 양보했다는 후대 전승"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "athena",
+      "tier": 1,
+      "category": "올림포스",
+      "names": {
+        "ko": "아테나",
+        "en": "Athena",
+        "grc": "Ἀθηνᾶ",
+        "grc_translit": "Athēnâ",
+        "la": "Minerva",
+        "la_note": "로마식 이름 (영어 Minerva)"
+      },
+      "role": "지혜와 전쟁 전략, 공예의 여신",
+      "domains": ["지혜", "전략", "공예", "직조", "도시"],
+      "symbols": ["올빼미", "투구", "방패(아이기스)", "올리브"],
+      "family": {
+        "parents": ["zeus", "metis"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["다수의 제우스 자녀"]
+      },
+      "story_hooks": [
+        "제우스의 머리에서 완전무장한 채 태어남",
+        "아테네 수호신 경쟁에서 올리브로 승리",
+        "아라크네를 거미로 변신시킴",
+        "오디세우스의 후원자"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "apollo",
+      "tier": 1,
+      "category": "올림포스",
+      "names": {
+        "ko": "아폴론",
+        "en": "Apollo",
+        "grc": "Ἀπόλλων",
+        "grc_translit": "Apóllōn",
+        "la": "Apollo",
+        "la_note": "그리스/로마 모두 Apollo (드물게 Phoebus)"
+      },
+      "role": "태양, 음악, 예언, 의술, 활의 신",
+      "domains": ["빛", "음악", "예언", "의술", "역병"],
+      "symbols": ["리라", "월계관", "활과 화살", "백조", "돌고래"],
+      "family": {
+        "parents": ["zeus", "leto"],
+        "consorts": ["daphne", "cassandra", "coronis"],
+        "children": ["asclepius", "orpheus_disputed"],
+        "siblings": ["artemis"]
+      },
+      "story_hooks": [
+        "델포이 신탁의 주인 (피톤 처치)",
+        "다프네가 월계수로 변신",
+        "카산드라에게 예언 능력 + 아무도 안 믿는 저주",
+        "트로이 전쟁에서 트로이 편"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "artemis",
+      "tier": 1,
+      "category": "올림포스",
+      "names": {
+        "ko": "아르테미스",
+        "en": "Artemis",
+        "grc": "Ἄρτεμις",
+        "grc_translit": "Ártemis",
+        "la": "Diana",
+        "la_note": "로마식 이름 (Diana)"
+      },
+      "role": "사냥과 야생, 달, 순결의 여신",
+      "domains": ["사냥", "야생", "달", "순결", "출산"],
+      "symbols": ["활과 화살", "사슴", "달", "사이프러스"],
+      "family": {
+        "parents": ["zeus", "leto"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["apollo"]
+      },
+      "story_hooks": [
+        "악타이온을 사슴으로 변신시켜 자기 개에게 물려 죽게 함",
+        "오리온의 죽음과 별자리화",
+        "아가멤논의 딸 이피게네이아 희생 요구"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "ares",
+      "tier": 1,
+      "category": "올림포스",
+      "names": {
+        "ko": "아레스",
+        "en": "Ares",
+        "grc": "Ἄρης",
+        "grc_translit": "Árēs",
+        "la": "Mars",
+        "la_note": "로마식 이름 (Mars). 로마에서는 훨씬 위상이 높았음"
+      },
+      "role": "전쟁(광기, 학살)의 신",
+      "domains": ["전쟁", "폭력", "용기"],
+      "symbols": ["창", "투구", "독수리", "개"],
+      "family": {
+        "parents": ["zeus", "hera"],
+        "consorts": ["aphrodite"],
+        "children": ["eros_son", "deimos", "phobos", "harmonia"],
+        "siblings": ["hephaestus", "hebe", "eileithyia"]
+      },
+      "story_hooks": [
+        "아프로디테와의 불륜이 헤파이스토스의 그물에 걸림",
+        "트로이 전쟁에서 트로이 편, 디오메데스에게 부상",
+        "그리스인들은 일반적으로 좋아하지 않은 신"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "aphrodite",
+      "tier": 1,
+      "category": "올림포스",
+      "names": {
+        "ko": "아프로디테",
+        "en": "Aphrodite",
+        "grc": "Ἀφροδίτη",
+        "grc_translit": "Aphrodítē",
+        "la": "Venus",
+        "la_note": "로마식 이름 (Venus)"
+      },
+      "role": "사랑과 미, 욕망의 여신",
+      "domains": ["사랑", "미", "욕망", "다산"],
+      "symbols": ["비둘기", "장미", "조개", "거울"],
+      "family": {
+        "parents": ["uranus"],
+        "consorts": ["hephaestus", "ares", "anchises", "adonis"],
+        "children": ["eros_son", "harmonia", "deimos", "phobos", "aeneas"],
+        "siblings": []
+      },
+      "story_hooks": [
+        "우라노스의 거세된 성기에서 바다 거품(aphros)으로 탄생",
+        "파리스의 심판에서 헬레네 약속으로 승리 → 트로이 전쟁 원인",
+        "아도니스의 죽음을 애도",
+        "아이네이아스의 어머니 (로마 건국 신화)"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "hephaestus",
+      "tier": 1,
+      "category": "올림포스",
+      "names": {
+        "ko": "헤파이스토스",
+        "en": "Hephaestus",
+        "grc": "Ἥφαιστος",
+        "grc_translit": "Hḗphaistos",
+        "la": "Vulcanus",
+        "la_note": "로마식 이름 (영어 Vulcan)"
+      },
+      "role": "대장장이, 불, 공예의 신",
+      "domains": ["대장장이", "불", "장인", "기술"],
+      "symbols": ["망치", "모루", "집게", "화산"],
+      "family": {
+        "parents": ["hera"],
+        "consorts": ["aphrodite", "aglaea"],
+        "children": ["erichthonius"],
+        "siblings": ["ares", "hebe", "eileithyia"]
+      },
+      "story_hooks": [
+        "헤라가 혼자 낳음 (또는 올림포스에서 던져져 절름발이가 됨)",
+        "아킬레우스의 무구를 만듦",
+        "판도라를 빚어냄",
+        "아내 아프로디테의 불륜을 그물로 폭로"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "hermes",
+      "tier": 1,
+      "category": "올림포스",
+      "names": {
+        "ko": "헤르메스",
+        "en": "Hermes",
+        "grc": "Ἑρμῆς",
+        "grc_translit": "Hermês",
+        "la": "Mercurius",
+        "la_note": "로마식 이름 (영어 Mercury)"
+      },
+      "role": "전령신, 상업·도둑·여행자의 수호신, 영혼 인도자",
+      "domains": ["전령", "상업", "도둑", "여행", "경계", "영혼 인도"],
+      "symbols": ["날개 달린 샌들", "카두케우스(전령 지팡이)", "챙 모자"],
+      "family": {
+        "parents": ["zeus", "maia"],
+        "consorts": [],
+        "children": ["pan", "hermaphroditus"],
+        "siblings": []
+      },
+      "story_hooks": [
+        "태어난 날 아폴론의 소를 훔침 (그리고 리라 발명)",
+        "아르고스를 죽이고 이오를 구함",
+        "오디세우스에게 키르케 해독제 몰리(moly) 전달",
+        "프시코폼포스 (영혼을 저승으로 인도)"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "dionysus",
+      "tier": 1,
+      "category": "올림포스",
+      "names": {
+        "ko": "디오니소스",
+        "en": "Dionysus",
+        "grc": "Διόνυσος",
+        "grc_translit": "Diónysos",
+        "la": "Bacchus",
+        "la_note": "로마식 이름 (Bacchus, 그리스 별칭 Βάκχος에서)"
+      },
+      "role": "포도주, 광기, 연극의 신",
+      "domains": ["포도주", "광란", "연극", "재생", "타자성"],
+      "symbols": ["포도", "지팡이(티르소스)", "표범", "담쟁이"],
+      "family": {
+        "parents": ["zeus", "semele"],
+        "consorts": ["ariadne"],
+        "children": [],
+        "siblings": []
+      },
+      "story_hooks": [
+        "어머니 세멜레가 제우스의 본모습을 보고 타죽음 → 제우스 허벅지에서 재탄생",
+        "테베의 펜테우스를 광기로 어머니에게 찢어 죽게 함 (『바카이』)",
+        "아리아드네를 낙소스에서 구원",
+        "그리스 비극의 후원신"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "persephone",
+      "tier": 1,
+      "category": "올림포스",
+      "names": {
+        "ko": "페르세포네",
+        "en": "Persephone",
+        "grc": "Περσεφόνη",
+        "grc_translit": "Persephónē",
+        "la": "Proserpina",
+        "la_note": "로마식 이름 (영어 Proserpine). 처녀 시절 이름은 Kore(Κόρη)"
+      },
+      "role": "지하세계의 여왕, 봄의 여신",
+      "domains": ["지하세계", "봄", "재생", "곡물의 처녀"],
+      "symbols": ["석류", "수선화", "횃불"],
+      "family": {
+        "parents": ["zeus", "demeter"],
+        "consorts": ["hades"],
+        "children": ["macaria"],
+        "siblings": []
+      },
+      "story_hooks": [
+        "하데스에게 납치되어 지하세계 여왕이 됨",
+        "석류 씨앗을 먹어 1년의 일부를 지하세계에 머묾 → 계절의 기원",
+        "엘레우시스 비의의 중심"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "eros_son",
+      "tier": 1,
+      "category": "기타신",
+      "names": {
+        "ko": "에로스",
+        "en": "Eros",
+        "grc": "Ἔρως",
+        "grc_translit": "Érōs",
+        "la": "Cupido",
+        "la_note": "로마식 이름 (Cupido/Amor, 영어 Cupid). 헬레니즘기 에로스(아프로디테 아들)와 원시신 에로스 구분 필요"
+      },
+      "role": "사랑과 욕망의 신",
+      "domains": ["사랑", "욕망", "끌림"],
+      "symbols": ["활과 화살", "날개", "횃불"],
+      "family": {
+        "parents": ["aphrodite", "ares"],
+        "consorts": ["psyche"],
+        "children": ["hedone"],
+        "siblings": ["harmonia", "deimos", "phobos"]
+      },
+      "story_hooks": [
+        "프시케와의 사랑 이야기 (아풀레이우스 『황금 당나귀』)",
+        "아폴론에게 화살을 쏴 다프네를 사랑하게 함",
+        "헬레니즘기에 어린아이 모습으로 정형화"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "leto",
+      "tier": 1,
+      "category": "티탄",
+      "names": {
+        "ko": "레토",
+        "en": "Leto",
+        "grc": "Λητώ",
+        "grc_translit": "Lētṓ",
+        "la": "Latona",
+        "la_note": "로마식 이름 (Latona)"
+      },
+      "role": "어머니 여신, 아폴론과 아르테미스의 어머니",
+      "domains": ["모성", "겸손"],
+      "symbols": ["베일", "야자나무"],
+      "family": {
+        "parents": ["coeus", "phoebe"],
+        "consorts": ["zeus"],
+        "children": ["apollo", "artemis"],
+        "siblings": ["asteria"]
+      },
+      "story_hooks": [
+        "헤라의 방해로 출산 장소를 찾지 못하다 델로스 섬에서 출산",
+        "니오베의 자만에 자식들로 복수"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "prometheus",
+      "tier": 1,
+      "category": "티탄",
+      "names": {
+        "ko": "프로메테우스",
+        "en": "Prometheus",
+        "grc": "Προμηθεύς",
+        "grc_translit": "Promētheús",
+        "la": "Prometheus",
+        "la_note": "음차 동일"
+      },
+      "role": "인류의 후원자, 불을 가져다 준 티탄",
+      "domains": ["선견지명", "기술", "반항"],
+      "symbols": ["불", "회향 줄기", "독수리"],
+      "family": {
+        "parents": ["iapetus", "clymene"],
+        "consorts": [],
+        "children": ["deucalion"],
+        "siblings": ["epimetheus", "atlas", "menoetius"]
+      },
+      "story_hooks": [
+        "인류에게 불을 훔쳐다 줌",
+        "코카서스 바위에 묶여 독수리에게 간을 쪼임",
+        "헤라클레스가 풀어줌",
+        "이름 뜻 '먼저 생각하는 자'"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "epimetheus",
+      "tier": 1,
+      "category": "티탄",
+      "names": {
+        "ko": "에피메테우스",
+        "en": "Epimetheus",
+        "grc": "Ἐπιμηθεύς",
+        "grc_translit": "Epimētheús",
+        "la": "Epimetheus",
+        "la_note": "음차 동일. 이름 뜻 '나중에 생각하는 자'"
+      },
+      "role": "프로메테우스의 동생, 판도라의 남편",
+      "domains": ["뒤늦은 깨달음"],
+      "symbols": ["판도라의 항아리"],
+      "family": {
+        "parents": ["iapetus", "clymene"],
+        "consorts": ["pandora"],
+        "children": ["pyrrha"],
+        "siblings": ["prometheus", "atlas", "menoetius"]
+      },
+      "story_hooks": [
+        "형의 경고를 무시하고 판도라를 아내로 맞음",
+        "판도라의 항아리가 열림 → 인류의 재앙"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "atlas",
+      "tier": 1,
+      "category": "티탄",
+      "names": {
+        "ko": "아틀라스",
+        "en": "Atlas",
+        "grc": "Ἄτλας",
+        "grc_translit": "Átlas",
+        "la": "Atlas",
+        "la_note": "음차 동일"
+      },
+      "role": "하늘(천구)을 짊어진 티탄",
+      "domains": ["인내", "천구"],
+      "symbols": ["천구", "어깨"],
+      "family": {
+        "parents": ["iapetus", "clymene"],
+        "consorts": ["pleione"],
+        "children": ["pleiades", "hyades", "calypso", "maia"],
+        "siblings": ["prometheus", "epimetheus", "menoetius"]
+      },
+      "story_hooks": [
+        "티타노마키아 패배 후 하늘을 떠받치는 형벌",
+        "헤라클레스에게 헤스페리데스 황금사과를 가져다 줌",
+        "페르세우스가 메두사 머리로 산으로 변신시킴"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "heracles",
+      "tier": 1,
+      "category": "영웅",
+      "names": {
+        "ko": "헤라클레스",
+        "en": "Heracles",
+        "grc": "Ἡρακλῆς",
+        "grc_translit": "Hēraklês",
+        "la": "Hercules",
+        "la_note": "로마식 이름 (Hercules). 이름 뜻 '헤라의 영광'"
+      },
+      "role": "최강의 영웅, 12과업의 주인공",
+      "domains": ["힘", "용기", "고통"],
+      "symbols": ["사자 가죽", "곤봉", "활"],
+      "family": {
+        "parents": ["zeus", "alcmene"],
+        "consorts": ["megara", "deianira", "hebe"],
+        "children": ["다수"],
+        "siblings": ["iphicles"]
+      },
+      "story_hooks": [
+        "헤라의 광기로 자기 자식을 죽임 → 속죄로 12과업",
+        "12과업: 네메아 사자, 히드라, 케리네이아 사슴, 에리만토스 멧돼지, 아우게이아스 외양간, 스팀팔로스 새, 크레타 황소, 디오메데스 말, 히폴리테 허리띠, 게리온 소, 헤스페리데스 사과, 케르베로스",
+        "데이아네이라의 옷으로 죽고 신격화",
+        "헤베와 결혼하여 올림포스에 입성"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "perseus",
+      "tier": 1,
+      "category": "영웅",
+      "names": {
+        "ko": "페르세우스",
+        "en": "Perseus",
+        "grc": "Περσεύς",
+        "grc_translit": "Perseús",
+        "la": "Perseus",
+        "la_note": "음차 동일"
+      },
+      "role": "메두사를 처치한 영웅, 미케네 왕조 시조",
+      "domains": ["용기", "지혜로운 영웅"],
+      "symbols": ["메두사 머리", "하르페(낫검)", "거울 방패", "날개 샌들"],
+      "family": {
+        "parents": ["zeus", "danae"],
+        "consorts": ["andromeda"],
+        "children": ["perses", "alcaeus", "sthenelus", "electryon"],
+        "siblings": []
+      },
+      "story_hooks": [
+        "황금비로 변한 제우스의 아들",
+        "메두사 처치 (헤르메스, 아테나의 도움)",
+        "안드로메다 구출 (바다괴물 케토스)",
+        "할아버지 아크리시오스를 의도치 않게 죽임"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "theseus",
+      "tier": 1,
+      "category": "영웅",
+      "names": {
+        "ko": "테세우스",
+        "en": "Theseus",
+        "grc": "Θησεύς",
+        "grc_translit": "Thēseús",
+        "la": "Theseus",
+        "la_note": "음차 동일"
+      },
+      "role": "아테네 영웅, 미노타우로스 처치자",
+      "domains": ["문명화", "왕권", "여정"],
+      "symbols": ["곤봉", "검", "샌들", "미노타우로스"],
+      "family": {
+        "parents": ["aegeus", "poseidon"],
+        "consorts": ["ariadne", "phaedra", "hippolyta"],
+        "children": ["hippolytus", "demophon", "acamas"],
+        "siblings": []
+      },
+      "story_hooks": [
+        "아테네로 가는 길에 6명의 도적 처치",
+        "크레타 미궁에서 미노타우로스 처치 (아리아드네의 실)",
+        "아리아드네를 낙소스에 버림",
+        "아내 파이드라가 의붓아들 히폴리토스를 사랑함 → 비극"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "odysseus",
+      "tier": 1,
+      "category": "영웅",
+      "names": {
+        "ko": "오디세우스",
+        "en": "Odysseus",
+        "grc": "Ὀδυσσεύς",
+        "grc_translit": "Odysseús",
+        "la": "Ulixes",
+        "la_note": "로마식 이름 (영어 Ulysses)"
+      },
+      "role": "이타카의 왕, 『오디세이아』의 주인공",
+      "domains": ["지략", "인내", "수사", "귀향"],
+      "symbols": ["활", "올리브 나무 침대", "트로이 목마"],
+      "family": {
+        "parents": ["laertes", "anticlea"],
+        "consorts": ["penelope", "circe", "calypso"],
+        "children": ["telemachus", "telegonus"],
+        "siblings": []
+      },
+      "story_hooks": [
+        "트로이 목마 계획",
+        "10년 귀향: 키클롭스(폴리페모스), 키르케, 사이렌, 스킬라와 카립디스, 칼립소",
+        "이타카 귀환 후 구혼자 학살",
+        "아테나의 후원"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "achilles",
+      "tier": 1,
+      "category": "영웅",
+      "names": {
+        "ko": "아킬레우스",
+        "en": "Achilles",
+        "grc": "Ἀχιλλεύς",
+        "grc_translit": "Achilleús",
+        "la": "Achilles",
+        "la_note": "음차 동일"
+      },
+      "role": "그리스 최강 전사, 『일리아스』의 중심 인물",
+      "domains": ["전사의 영광(kleos)", "분노", "단명"],
+      "symbols": ["창", "방패", "발뒤꿈치"],
+      "family": {
+        "parents": ["peleus", "thetis"],
+        "consorts": ["briseis", "deidamia"],
+        "children": ["neoptolemus"],
+        "siblings": []
+      },
+      "story_hooks": [
+        "어머니 테티스가 스틱스 강에 담가 불사신화 (발뒤꿈치 제외)",
+        "아가멤논과의 분노로 전장 이탈 (『일리아스』 시작)",
+        "친구 파트로클로스의 죽음 → 헥토르 처치",
+        "파리스의 화살(아폴론 인도)로 발뒤꿈치 명중해 사망"
+      ],
+      "difficulty": 1
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Mythos — 그리스로마 신화 학습",
+  "short_name": "Mythos",
+  "description": "그리스로마 신화 등장인물 200+명을 4개 언어로 학습하는 PWA",
+  "start_url": "/mythos-pwa/",
+  "scope": "/mythos-pwa/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FAF7F2",
+  "theme_color": "#FAF7F2",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "/mythos-pwa/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/mythos-pwa/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

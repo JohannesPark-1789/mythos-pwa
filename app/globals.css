@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #FAF7F2;
+  --bg-secondary: #F4EFE6;
+  --bg-elevated: #FFFFFF;
+
+  --text-primary: #2A2A2A;
+  --text-secondary: #5C5751;
+  --text-muted: #8B857E;
+
+  --accent-olympian: #B8860B;
+  --accent-titan: #6B4F8C;
+  --accent-hero: #9C2A2A;
+  --accent-underworld: #4A5258;
+  --accent-primordial: #5C6B5C;
+  --accent-other: #8B6F47;
+
+  --border-soft: rgba(0, 0, 0, 0.06);
+  --border-medium: rgba(0, 0, 0, 0.12);
+
+  --font-size-body: 17px;
+}
+
+@media (min-width: 768px) {
+  :root { --font-size-body: 16px; }
+}
+
+html, body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: var(--font-size-body);
+  line-height: 1.7;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Category accent left border (3px) — for cards */
+.cat-올림포스    { border-left: 3px solid var(--accent-olympian); }
+.cat-티탄        { border-left: 3px solid var(--accent-titan); }
+.cat-영웅        { border-left: 3px solid var(--accent-hero); }
+.cat-트로이      { border-left: 3px solid var(--accent-hero); }
+.cat-괴물        { border-left: 3px solid var(--accent-other); }
+.cat-님프        { border-left: 3px solid var(--accent-primordial); }
+.cat-지하세계    { border-left: 3px solid var(--accent-underworld); }
+.cat-원시신      { border-left: 3px solid var(--accent-primordial); }
+.cat-기타신      { border-left: 3px solid var(--accent-other); }
