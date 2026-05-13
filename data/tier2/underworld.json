@@ -1,0 +1,151 @@
+{
+  "tier": 2,
+  "category": "지하세계",
+  "characters": [
+    {
+      "id": "charon",
+      "tier": 2,
+      "category": "지하세계",
+      "names": {
+        "ko": "카론",
+        "en": "Charon",
+        "grc": "Χάρων",
+        "grc_translit": "Chárōn",
+        "la": "Charon",
+        "la_note": "음차 동일"
+      },
+      "role": "스틱스(또는 아케론) 강의 나룻꾼, 죽은 자를 저승으로 실어 나름",
+      "domains": ["저승의 강", "통행료", "경계 건너기"],
+      "symbols": ["나룻배", "노", "동전(오볼로스)"],
+      "family": {
+        "parents": ["erebus", "nyx"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["hemera", "aether", "hypnos", "thanatos"]
+      },
+      "story_hooks": [
+        "통행료 1오볼로스(은화) — 그래서 그리스인은 죽은 자의 입에 동전을 넣음",
+        "동전이 없으면 100년간 강가에서 떠돎",
+        "헤라클레스·오르페우스·아이네이아스는 살아서 그를 통과한 영웅들",
+        "단테 『신곡 지옥편』 3곡에서 '눈은 불수레, 영혼들을 매로 모는' 무서운 노인으로 재형상화"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "minos",
+      "tier": 2,
+      "category": "지하세계",
+      "names": {
+        "ko": "미노스",
+        "en": "Minos",
+        "grc": "Μίνως",
+        "grc_translit": "Mínōs",
+        "la": "Minos",
+        "la_note": "음차 동일"
+      },
+      "role": "크레타의 왕, 사후 저승의 재판관",
+      "domains": ["왕권", "법", "사후 심판"],
+      "symbols": ["왕홀", "황소", "재판의 항아리"],
+      "family": {
+        "parents": ["zeus", "europa"],
+        "consorts": ["pasiphae"],
+        "children": ["ariadne", "phaedra", "androgeus", "glaucus_minos"],
+        "siblings": ["rhadamanthus", "sarpedon"]
+      },
+      "story_hooks": [
+        "포세이돈이 보낸 흰 황소를 희생제로 바치지 않아 아내 파시파에가 그 황소와 결합 → 미노타우로스 탄생",
+        "다이달로스에게 미궁을 짓게 하고 아테네에 청년 공물 강요",
+        "다이달로스 추격 중 시칠리아에서 끓는 물에 빠져 사망",
+        "사후 라다만토스·아이아코스와 함께 저승 3 재판관이 됨 (단테 신곡에서도 등장)"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "rhadamanthus",
+      "tier": 2,
+      "category": "지하세계",
+      "names": {
+        "ko": "라다만토스",
+        "en": "Rhadamanthus",
+        "grc": "Ῥαδάμανθυς",
+        "grc_translit": "Rhadámanthys",
+        "la": "Rhadamanthus",
+        "la_note": "음차 동일"
+      },
+      "role": "미노스의 형제, 저승의 공정한 재판관",
+      "domains": ["공정", "법", "엘리시온"],
+      "symbols": ["황금 홀", "정의의 저울"],
+      "family": {
+        "parents": ["zeus", "europa"],
+        "consorts": ["alcmene"],
+        "children": [],
+        "siblings": ["minos", "sarpedon"]
+      },
+      "story_hooks": [
+        "엄격하고 공정한 법으로 크레타 사회의 모범",
+        "사후 엘리시온(극락 평원)을 다스리는 재판관이 됨",
+        "헤라클레스의 어머니 알크메네가 과부가 된 후 그와 재혼",
+        "플라톤이 『고르기아스』·『국가』에서 사후 심판의 모델로 인용"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "tartarus",
+      "tier": 2,
+      "category": "지하세계",
+      "names": {
+        "ko": "타르타로스",
+        "en": "Tartarus",
+        "grc": "Τάρταρος",
+        "grc_translit": "Tártaros",
+        "la": "Tartarus",
+        "la_note": "음차 동일. 장소이자 의인화된 원시 신격"
+      },
+      "role": "하데스보다도 더 깊은 심연, 의인화된 원시신",
+      "domains": ["심연", "감금", "원초적 어둠"],
+      "symbols": ["청동 벽", "꺼지지 않는 불"],
+      "family": {
+        "parents": ["chaos"],
+        "consorts": ["gaia"],
+        "children": ["typhon", "echidna"],
+        "siblings": ["gaia", "eros_primordial", "erebus", "nyx"]
+      },
+      "story_hooks": [
+        "하늘에서 모루를 떨어뜨리면 9일을 떨어져야 닿는 깊이 (헤시오도스)",
+        "티탄족이 갇힌 곳, 후대에는 가장 무거운 죄인이 영원한 형벌을 받는 곳",
+        "시지프스의 바위, 탄탈로스의 갈증, 익시온의 바퀴가 모두 여기서 일어남",
+        "가이아와 결합해 티폰과 에키드나(모든 괴물의 어머니) 낳음"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "erinyes",
+      "tier": 2,
+      "category": "지하세계",
+      "names": {
+        "ko": "에리니에스",
+        "en": "Erinyes (the Furies)",
+        "grc": "Ἐρινύες",
+        "grc_translit": "Erinýes",
+        "la": "Furiae",
+        "la_note": "로마식 Furiae (영어 Furies). 세 자매 — 알렉토, 메가이라, 티시포네"
+      },
+      "role": "복수의 세 자매, 특히 친족 살해를 처벌",
+      "domains": ["복수", "친족살해의 응보", "광기"],
+      "symbols": ["뱀 머리카락", "피의 눈물", "채찍", "횃불"],
+      "family": {
+        "parents": ["uranus"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["giants", "meliae"]
+      },
+      "story_hooks": [
+        "우라노스가 거세될 때 흘린 피가 가이아에 떨어져 태어남",
+        "오레스테스가 어머니 클리타임네스트라를 죽인 후 끝없이 추격 → 아테네 법정에서 무죄 판결",
+        "아이스킬로스 『자비로운 여신들』(Eumenides)에서 분노에서 자비로 전환 — 그리스 법치의 신화적 출발",
+        "단테 『신곡 지옥편』 디스의 성문 위에서 등장"
+      ],
+      "difficulty": 2
+    }
+  ]
+}

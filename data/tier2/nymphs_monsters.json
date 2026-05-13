@@ -1,0 +1,383 @@
+{
+  "tier": 2,
+  "category": "님프 + 괴물",
+  "characters": [
+    {
+      "id": "calypso",
+      "tier": 2,
+      "category": "님프",
+      "names": {
+        "ko": "칼립소",
+        "en": "Calypso",
+        "grc": "Καλυψώ",
+        "grc_translit": "Kalypsṓ",
+        "la": "Calypso",
+        "la_note": "음차 동일. 이름의 어원은 '감추는 자'(καλύπτω)"
+      },
+      "role": "오기기아 섬의 님프, 오디세우스를 7년간 붙잡은 여신",
+      "domains": ["은둔", "사랑의 감금", "불사 약속"],
+      "symbols": ["베일", "바다 동굴", "황금 베틀"],
+      "family": {
+        "parents": ["atlas", "pleione"],
+        "consorts": ["odysseus"],
+        "children": [],
+        "siblings": ["pleiades", "hyades", "maia"]
+      },
+      "story_hooks": [
+        "오디세우스를 7년간 사랑으로 붙잡고 불사를 제안했으나 거절당함",
+        "헤르메스를 통한 제우스의 명령에 결국 오디세우스를 보내줌",
+        "이름의 어원 '감추는 자' — 오디세우스를 세상에서 가리고 있던 존재",
+        "현대문학에서 '집착하는 사랑'의 원형 (호메로스 『오디세이아』 5권)"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "circe",
+      "tier": 2,
+      "category": "님프",
+      "names": {
+        "ko": "키르케",
+        "en": "Circe",
+        "grc": "Κίρκη",
+        "grc_translit": "Kírkē",
+        "la": "Circe",
+        "la_note": "음차 동일"
+      },
+      "role": "아이아이아 섬의 마녀 여신",
+      "domains": ["마법", "변신", "약초"],
+      "symbols": ["지팡이", "약초", "사자와 늑대"],
+      "family": {
+        "parents": ["helios", "perse"],
+        "consorts": ["odysseus"],
+        "children": ["telegonus"],
+        "siblings": ["aeetes", "pasiphae", "perses"]
+      },
+      "story_hooks": [
+        "오디세우스 부하들을 약초로 돼지로 변신",
+        "오디세우스가 헤르메스의 약 몰리(moly)로 면역, 1년간 동거",
+        "오디세우스에게 저승 여행과 사이렌·스킬라 항로를 알려줌",
+        "후대에 마녀의 원형(매들린 밀러 『키르케』 등)"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "daphne",
+      "tier": 2,
+      "category": "님프",
+      "names": {
+        "ko": "다프네",
+        "en": "Daphne",
+        "grc": "Δάφνη",
+        "grc_translit": "Dáphnē",
+        "la": "Daphne",
+        "la_note": "음차 동일. 이름 자체가 그리스어로 '월계수'"
+      },
+      "role": "강의 신 페네이오스의 딸, 월계수로 변신한 처녀 님프",
+      "domains": ["순결", "도주", "변신"],
+      "symbols": ["월계수 가지", "강", "달리는 자세"],
+      "family": {
+        "parents": ["peneus"],
+        "consorts": [],
+        "children": [],
+        "siblings": []
+      },
+      "story_hooks": [
+        "에로스가 황금 화살로 아폴론을 사랑에 빠뜨리고 납 화살로 다프네를 거부에 빠뜨림",
+        "아폴론의 추격에서 도망치다 아버지 페네이오스에게 빌어 월계수로 변신",
+        "이후 월계관이 아폴론의 상징이자 시인·승리자의 영광",
+        "베르니니 「아폴론과 다프네」(보르게세 미술관)의 변신 순간 조각이 가장 유명한 도상"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "echo",
+      "tier": 2,
+      "category": "님프",
+      "names": {
+        "ko": "에코",
+        "en": "Echo",
+        "grc": "Ἠχώ",
+        "grc_translit": "Ēchṓ",
+        "la": "Echo",
+        "la_note": "음차 동일. 이름 자체가 '메아리'"
+      },
+      "role": "산 님프, 헤라의 저주로 남의 말 끝만 반복하는 존재",
+      "domains": ["메아리", "짝사랑", "소멸"],
+      "symbols": ["빈 동굴", "메아리", "사라지는 형체"],
+      "family": {
+        "parents": [],
+        "consorts": [],
+        "children": [],
+        "siblings": []
+      },
+      "story_hooks": [
+        "제우스의 외도를 수다로 가려준 벌로 헤라가 '남의 말 끝만 반복'하는 저주를 내림",
+        "나르키소스를 사랑했으나 거부당해 비탄으로 몸이 사라지고 목소리만 남음",
+        "워터하우스 「에코와 나르키소스」, 푸생의 그림으로 미술사에 자주 등장",
+        "프로이트·라캉의 정신분석에서 '응답하지 않는 타자' 메타포로 차용"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "galatea",
+      "tier": 2,
+      "category": "님프",
+      "names": {
+        "ko": "갈라테이아",
+        "en": "Galatea",
+        "grc": "Γαλάτεια",
+        "grc_translit": "Galáteia",
+        "la": "Galatea",
+        "la_note": "음차 동일. 피그말리온의 조각상 갈라테이아(후대 명명)와 구별되는 바다 네레이스"
+      },
+      "role": "바다 네레이스(50자매 중 하나), 키클롭스 폴리페모스의 짝사랑 대상",
+      "domains": ["바다", "젊은 사랑", "비극"],
+      "symbols": ["조개", "돌고래", "흰 거품"],
+      "family": {
+        "parents": ["nereus", "doris"],
+        "consorts": ["acis"],
+        "children": [],
+        "siblings": ["thetis", "nereids"]
+      },
+      "story_hooks": [
+        "폴리페모스가 그녀를 짝사랑하며 부르는 노래 (테오크리토스 『목가』)",
+        "양치기 아키스를 사랑했으나 질투한 폴리페모스가 바위로 압사",
+        "갈라테이아가 아키스를 강물로 변화시켜 영원히 흐르게 함",
+        "라파엘로 「갈라테이아의 승리」(파르네지나) 등 르네상스 회화의 단골 주제"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "medusa",
+      "tier": 2,
+      "category": "괴물",
+      "names": {
+        "ko": "메두사",
+        "en": "Medusa",
+        "grc": "Μέδουσα",
+        "grc_translit": "Médousa",
+        "la": "Medusa",
+        "la_note": "음차 동일. 이름의 어원은 '지배하는 여자'(μέδω)"
+      },
+      "role": "고르곤 세 자매 중 유일한 가사(可死)의 존재, 페르세우스가 처치",
+      "domains": ["저주", "시선의 공포", "변신"],
+      "symbols": ["뱀 머리카락", "잘린 머리", "돌이 된 인간들"],
+      "family": {
+        "parents": ["phorcys", "ceto"],
+        "consorts": ["poseidon"],
+        "children": ["pegasus", "chrysaor"],
+        "siblings": ["stheno", "euryale"]
+      },
+      "story_hooks": [
+        "원래 아름다웠으나 아테나 신전에서 포세이돈에게 폭행당한 후 아테나가 뱀으로 변신시킴 (오비디우스 변형)",
+        "시선을 마주친 자는 모두 돌로 굳음",
+        "페르세우스가 거울 방패로 시선을 피해 머리를 벰 → 잘린 목에서 페가소스와 크리사오르 탄생",
+        "카라바조 「메두사」, 첼리니 「페르세우스」 등 르네상스 도상의 핵심"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "minotaur",
+      "tier": 2,
+      "category": "괴물",
+      "names": {
+        "ko": "미노타우로스",
+        "en": "Minotaur",
+        "grc": "Μινώταυρος",
+        "grc_translit": "Minṓtauros",
+        "la": "Minotaurus",
+        "la_note": "로마식 Minotaurus (영어 Minotaur). 본명은 아스테리오스(Ἀστέριος)"
+      },
+      "role": "황소 머리 인간 몸의 괴물, 크레타 미궁의 거주자",
+      "domains": ["부정한 결합", "미궁", "공물"],
+      "symbols": ["뿔", "미궁", "검은 황소"],
+      "family": {
+        "parents": ["pasiphae", "cretan_bull"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["ariadne", "phaedra"]
+      },
+      "story_hooks": [
+        "미노스 왕의 아내 파시파에가 포세이돈의 황소와 결합해 낳음",
+        "다이달로스가 설계한 라비린토스(미궁)에 갇혀 아테네 청년 7+7 명을 9년마다 공물로 받음",
+        "테세우스가 아리아드네의 실타래를 들고 들어가 처치",
+        "피카소의 평생 모티프 — 황소 머리 사람으로 자기 자신을 그림"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "cerberus",
+      "tier": 2,
+      "category": "괴물",
+      "names": {
+        "ko": "케르베로스",
+        "en": "Cerberus",
+        "grc": "Κέρβερος",
+        "grc_translit": "Kérberos",
+        "la": "Cerberus",
+        "la_note": "음차 동일"
+      },
+      "role": "지하세계 입구를 지키는 삼두견 (또는 50두/100두 전승)",
+      "domains": ["경비", "지옥의 문", "공포"],
+      "symbols": ["세 개의 머리", "뱀 갈기", "사자 발톱"],
+      "family": {
+        "parents": ["typhon", "echidna"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["hydra", "chimera", "sphinx", "orthrus", "nemean_lion"]
+      },
+      "story_hooks": [
+        "들어오는 자는 통과시키고 나가는 자는 막음 — 죽은 자의 영혼이 돌아오지 못하게",
+        "헤라클레스 12과업의 마지막: 사슬도 없이 맨손으로 잡아 지상에 데려옴",
+        "오르페우스가 리라 연주로 잠재워 저승 입성",
+        "단테 『신곡 지옥편』 6원(폭식)의 감시자로 재등장"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "hydra",
+      "tier": 2,
+      "category": "괴물",
+      "names": {
+        "ko": "히드라",
+        "en": "Hydra",
+        "grc": "Ὕδρα",
+        "grc_translit": "Hýdra",
+        "la": "Hydra",
+        "la_note": "음차 동일. 통상 '레르나의 히드라'(Hydra Lernaea)"
+      },
+      "role": "레르나 늪의 다두뱀, 머리를 자르면 두 개가 자라남",
+      "domains": ["불사", "재생", "독"],
+      "symbols": ["다수의 뱀 머리", "독액", "늪"],
+      "family": {
+        "parents": ["typhon", "echidna"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["cerberus", "chimera", "sphinx"]
+      },
+      "story_hooks": [
+        "머리를 자를 때마다 두 개가 새로 자람 — 가운데 머리는 불사",
+        "헤라클레스 2번 과업: 조카 이올라오스가 자른 단면을 횃불로 지져 재생 차단",
+        "독즙을 화살에 묻혀 사용 → 후일 헤라클레스 자신의 죽음에도 작용 (네소스의 옷)",
+        "현대까지 '하나를 해결하면 둘이 생기는 문제'의 비유 ('hydra-headed problem')"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "chimera",
+      "tier": 2,
+      "category": "괴물",
+      "names": {
+        "ko": "키마이라",
+        "en": "Chimera",
+        "grc": "Χίμαιρα",
+        "grc_translit": "Chímaira",
+        "la": "Chimaera",
+        "la_note": "로마식 Chimaera (영어 Chimera)"
+      },
+      "role": "사자·염소·뱀이 합쳐진 불을 뿜는 합성괴물",
+      "domains": ["혼종", "불", "리키아의 재앙"],
+      "symbols": ["사자 머리", "등의 염소 머리", "뱀 꼬리", "불꽃"],
+      "family": {
+        "parents": ["typhon", "echidna"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["cerberus", "hydra", "sphinx"]
+      },
+      "story_hooks": [
+        "리키아 지방을 황폐화하던 재앙",
+        "벨레로폰테스가 페가소스를 타고 납을 단 창을 입에 꽂아 처치 (납이 불에 녹아 질식)",
+        "현대 영어 'chimera'는 '실현 불가능한 환상'이나 '유전적 합성 개체(키메라)'의 어원",
+        "아레초 청동 키마이라(에트루리아 BCE 5세기) — 가장 유명한 고대 도상"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "sphinx",
+      "tier": 2,
+      "category": "괴물",
+      "names": {
+        "ko": "스핑크스",
+        "en": "Sphinx",
+        "grc": "Σφίγξ",
+        "grc_translit": "Sphínx",
+        "la": "Sphinx",
+        "la_note": "음차 동일. 이집트의 남성 사자상과 달리 그리스 스핑크스는 여성"
+      },
+      "role": "테베 길목을 지키며 수수께끼를 내고 못 푸는 자를 잡아먹는 괴물",
+      "domains": ["수수께끼", "지혜의 시험", "재앙"],
+      "symbols": ["여자 얼굴", "사자 몸", "독수리 날개"],
+      "family": {
+        "parents": ["typhon", "echidna"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["cerberus", "hydra", "chimera"]
+      },
+      "story_hooks": [
+        "수수께끼: '아침에 네 발, 낮에 두 발, 저녁에 세 발로 걷는 것은?' — 답은 인간",
+        "오이디푸스가 풀자 절벽에서 몸을 던져 죽음",
+        "이 사건으로 오이디푸스는 테베의 영웅이자 왕이 됨 → 비극의 시작",
+        "앵그르 「오이디푸스와 스핑크스」, 모로 「오이디푸스와 스핑크스」 — 19세기 회화의 핵심 모티프"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "polyphemus",
+      "tier": 2,
+      "category": "괴물",
+      "names": {
+        "ko": "폴리페모스",
+        "en": "Polyphemus",
+        "grc": "Πολύφημος",
+        "grc_translit": "Polýphēmos",
+        "la": "Polyphemus",
+        "la_note": "음차 동일. 이름의 어원은 '여러 사람의 이야깃거리'(πολύ+φήμη)"
+      },
+      "role": "외눈박이 키클롭스, 포세이돈의 아들",
+      "domains": ["원시적 야만", "외짝눈", "분노의 저주"],
+      "symbols": ["하나의 눈", "거대한 곤봉", "양떼", "동굴"],
+      "family": {
+        "parents": ["poseidon"],
+        "consorts": [],
+        "children": [],
+        "siblings": []
+      },
+      "story_hooks": [
+        "오디세우스 일행을 동굴에 가두고 부하들을 잡아먹음",
+        "오디세우스가 자기 이름을 '우티스(Οὖτις, 아무도 아닌 자)'라 거짓말하고 술 먹여 눈을 찌름",
+        "포세이돈에게 복수를 청해 오디세우스의 10년 표류가 시작됨",
+        "갈라테이아를 짝사랑하며 부르는 노래로 목가시 전통의 출발 (테오크리토스)"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "pegasus",
+      "tier": 2,
+      "category": "괴물",
+      "names": {
+        "ko": "페가소스",
+        "en": "Pegasus",
+        "grc": "Πήγασος",
+        "grc_translit": "Pḗgasos",
+        "la": "Pegasus",
+        "la_note": "음차 동일. 신화적 생물 — '괴물' 범주는 신화적 짐승 포괄 분류"
+      },
+      "role": "날개 달린 백마, 메두사의 피에서 탄생",
+      "domains": ["비행", "영감", "별자리"],
+      "symbols": ["날개", "흰 말", "샘(히포크레네)"],
+      "family": {
+        "parents": ["poseidon", "medusa"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["chrysaor"]
+      },
+      "story_hooks": [
+        "페르세우스가 메두사의 목을 벤 자리에서 형 크리사오르와 함께 솟아남",
+        "벨레로폰테스가 아테나의 황금 굴레로 길들여 키마이라 처치에 사용",
+        "벨레로폰테스가 올림포스에 오르려 하자 등에에 놀라 떨어뜨림",
+        "헬리콘 산을 발굽으로 차서 시인의 영감의 샘 '히포크레네'를 솟게 함 → 시적 영감의 상징, 별자리로 승천"
+      ],
+      "difficulty": 1
+    }
+  ]
+}

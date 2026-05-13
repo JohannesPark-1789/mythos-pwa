@@ -42,8 +42,9 @@ export type Character = {
 };
 
 export type CharacterDataset = {
-  version: string;
-  tier: Tier;
+  version?: string;
+  tier?: Tier;
+  category?: string;
   schema_note?: string;
   characters: Character[];
 };

@@ -1,11 +1,26 @@
 // Static character dataset loader + pure filter/search helpers.
 // Safe to import from server components (no IndexedDB / window refs).
-import dataset from '@/data/characters.json';
+// Sources are aggregated at build time; each file is a CharacterDataset wrapper.
+import tier1 from '@/data/characters.json';
+import tier2Troy from '@/data/tier2/troy.json';
+import tier2Heroes from '@/data/tier2/heroes.json';
+import tier2NymphsMonsters from '@/data/tier2/nymphs_monsters.json';
+import tier2OtherGods from '@/data/tier2/other_gods.json';
+import tier2Underworld from '@/data/tier2/underworld.json';
+import tier2Primordial from '@/data/tier2/primordial.json';
 import type { Character, CharacterDataset, Category, Tier } from '@/types/character';
 
-const data = dataset as CharacterDataset;
+const SOURCES: CharacterDataset[] = [
+  tier1 as CharacterDataset,
+  tier2Troy as CharacterDataset,
+  tier2Heroes as CharacterDataset,
+  tier2NymphsMonsters as CharacterDataset,
+  tier2OtherGods as CharacterDataset,
+  tier2Underworld as CharacterDataset,
+  tier2Primordial as CharacterDataset,
+];
 
-export const allCharacters: ReadonlyArray<Character> = data.characters;
+export const allCharacters: ReadonlyArray<Character> = SOURCES.flatMap((s) => s.characters);
 
 export const CATEGORIES: ReadonlyArray<Category> = [
   '올림포스',

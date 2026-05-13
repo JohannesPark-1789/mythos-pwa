@@ -1,0 +1,151 @@
+{
+  "tier": 2,
+  "category": "원시신",
+  "characters": [
+    {
+      "id": "nyx",
+      "tier": 2,
+      "category": "원시신",
+      "names": {
+        "ko": "닉스",
+        "en": "Nyx",
+        "grc": "Νύξ",
+        "grc_translit": "Nýx",
+        "la": "Nox",
+        "la_note": "로마식 Nox (영어 Nyx로도 통용). 이름 자체가 '밤'"
+      },
+      "role": "밤의 의인화, 카오스에서 직접 태어난 원시 여신",
+      "domains": ["밤", "어둠", "꿈"],
+      "symbols": ["검은 베일", "별이 박힌 망토", "박쥐 날개"],
+      "family": {
+        "parents": ["chaos"],
+        "consorts": ["erebus"],
+        "children": ["hemera", "aether", "hypnos", "thanatos", "moirai", "nemesis", "charon"],
+        "siblings": ["gaia", "tartarus", "erebus", "eros_primordial"]
+      },
+      "story_hooks": [
+        "제우스조차 두려워하는 원시신 — 헤라가 닉스에게 도망친 휘프노스를 추궁하지 못함 (『일리아스』 14권)",
+        "그녀의 자식들이 모두 '인간의 운명을 결정하는 추상적 힘들' — 잠/죽음/운명/응보",
+        "오르페우스 비교(秘敎)에서 우주 생성의 핵심 원리",
+        "현대 카오스이론의 비유적 모티프"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "erebus",
+      "tier": 2,
+      "category": "원시신",
+      "names": {
+        "ko": "에레보스",
+        "en": "Erebus",
+        "grc": "Ἔρεβος",
+        "grc_translit": "Érebos",
+        "la": "Erebus",
+        "la_note": "음차 동일. 이름 자체가 '깊은 어둠'"
+      },
+      "role": "지하의 어둠, 카오스에서 태어난 원시 신격",
+      "domains": ["어둠", "그림자", "저승 입구"],
+      "symbols": ["검은 안개", "끝없는 동굴"],
+      "family": {
+        "parents": ["chaos"],
+        "consorts": ["nyx"],
+        "children": ["hemera", "aether", "charon"],
+        "siblings": ["gaia", "tartarus", "nyx", "eros_primordial"]
+      },
+      "story_hooks": [
+        "지상과 하데스 사이의 어둠 지역 — 죽은 영혼이 가장 먼저 통과",
+        "닉스와 결합해 낮(헤메라)과 상층 공기(아이테르)를 낳음 — 어둠에서 빛이 나오는 우주관",
+        "현대 천문학에서 명왕성의 위성 '에레보스 산'(남극의 활화산) 등 명명",
+        "밀턴 『실낙원』의 지옥 묘사에서 차용"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "pontus",
+      "tier": 2,
+      "category": "원시신",
+      "names": {
+        "ko": "폰토스",
+        "en": "Pontus",
+        "grc": "Πόντος",
+        "grc_translit": "Póntos",
+        "la": "Pontus",
+        "la_note": "음차 동일. 이름 자체가 '바다'(특히 깊은 바다)"
+      },
+      "role": "바다의 원시 신격, 가이아가 홀로 낳은 존재",
+      "domains": ["바다", "심해", "해양 생물의 시조"],
+      "symbols": ["짠 물결", "파도"],
+      "family": {
+        "parents": ["gaia"],
+        "consorts": ["gaia"],
+        "children": ["nereus", "thaumas", "phorcys", "ceto", "eurybia"],
+        "siblings": ["uranus", "ourea"]
+      },
+      "story_hooks": [
+        "가이아가 우라노스를 낳은 뒤 홀로 낳은 또 다른 자식",
+        "어머니 가이아와 결합해 바다의 신족(네레우스·포르키스·케토 등) 낳음 → 모든 바다 괴물의 조상",
+        "포세이돈(올림포스 바다신)에 의해 뒷전으로 물러난 1세대 바다신",
+        "현대까지 'pontoon'(부교), 그리스의 '폰토스(흑해 연안)' 지명에 흔적"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "hemera",
+      "tier": 2,
+      "category": "원시신",
+      "names": {
+        "ko": "헤메라",
+        "en": "Hemera",
+        "grc": "Ἡμέρα",
+        "grc_translit": "Hēméra",
+        "la": "Dies",
+        "la_note": "로마식 Dies (영어 Hemera로도 통용). 이름 자체가 '낮'"
+      },
+      "role": "낮의 의인화, 어둠에서 태어난 빛",
+      "domains": ["낮", "햇빛", "주기"],
+      "symbols": ["밝은 망토", "떠오르는 해"],
+      "family": {
+        "parents": ["erebus", "nyx"],
+        "consorts": ["aether"],
+        "children": [],
+        "siblings": ["aether", "hypnos", "thanatos", "moirai", "charon"]
+      },
+      "story_hooks": [
+        "어머니 닉스가 들어가면 헤메라가 나옴 — 둘이 같은 문을 반대로 통과 (헤시오도스)",
+        "후대에 에오스(새벽의 여신)와 혼동되거나 통합되어 별개 인격성이 옅어짐",
+        "어둠(에레보스+닉스)에서 빛(헤메라+아이테르)이 나오는 우주관의 의인화",
+        "현대 그리스어에서 'ἡμέρα'는 여전히 '날·요일'을 의미"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "aether",
+      "tier": 2,
+      "category": "원시신",
+      "names": {
+        "ko": "아이테르",
+        "en": "Aether",
+        "grc": "Αἰθήρ",
+        "grc_translit": "Aithḗr",
+        "la": "Aether",
+        "la_note": "음차 동일. 이름 자체가 '상층 공기' — 신들이 숨 쉬는 맑은 대기"
+      },
+      "role": "상층 대기의 의인화, 신들이 호흡하는 순수한 빛의 공기",
+      "domains": ["상층 공기", "신성한 빛", "푸른 하늘"],
+      "symbols": ["맑은 푸름", "빛"],
+      "family": {
+        "parents": ["erebus", "nyx"],
+        "consorts": ["hemera"],
+        "children": [],
+        "siblings": ["hemera", "hypnos", "thanatos"]
+      },
+      "story_hooks": [
+        "인간이 숨 쉬는 일반 공기(aer)와 구별되는 신들의 '맑은 빛의 공기'",
+        "아리스토텔레스가 4원소(흙·물·불·공기)에 추가한 5번째 원소 '에테르'의 어원 — 천체를 이루는 물질",
+        "19세기까지 빛의 매질로 가정된 'luminiferous aether'의 어원 (마이컬슨-몰리 실험으로 부정)",
+        "현대 화학의 ether(에테르) 화합물명까지 이어지는 어원"
+      ],
+      "difficulty": 3
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "tier": 2,
+  "category": "트로이",
+  "characters": [
+    {
+      "id": "hector",
+      "tier": 2,
+      "category": "트로이",
+      "names": {
+        "ko": "헥토르",
+        "en": "Hector",
+        "grc": "Ἕκτωρ",
+        "grc_translit": "Héktōr",
+        "la": "Hector",
+        "la_note": "음차 동일"
+      },
+      "role": "트로이 최고 전사, 프리아모스의 장남",
+      "domains": ["전사", "왕자", "방어자"],
+      "symbols": ["창", "투구의 깃털 장식", "거대한 방패"],
+      "family": {
+        "parents": ["priam", "hecuba"],
+        "consorts": ["andromache"],
+        "children": ["astyanax"],
+        "siblings": ["paris", "cassandra"]
+      },
+      "story_hooks": [
+        "파트로클로스를 처치 → 아킬레우스의 분노 촉발",
+        "성벽 앞에서 아킬레우스와 일대일, 패해 사망",
+        "아킬레우스가 시신을 전차에 매달아 12일간 끌고 다님",
+        "프리아모스가 직접 적진에 들어가 시신을 되찾음 (『일리아스』 마지막 권)"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "paris",
+      "tier": 2,
+      "category": "트로이",
+      "names": {
+        "ko": "파리스",
+        "en": "Paris",
+        "grc": "Πάρις",
+        "grc_translit": "Páris",
+        "la": "Paris",
+        "la_note": "음차 동일. 별칭 Ἀλέξανδρος(알렉산드로스)"
+      },
+      "role": "트로이 왕자, 황금사과 심판자",
+      "domains": ["미", "선택", "활"],
+      "symbols": ["황금사과", "활과 화살", "양치기 지팡이"],
+      "family": {
+        "parents": ["priam", "hecuba"],
+        "consorts": ["helen", "oenone"],
+        "children": [],
+        "siblings": ["hector", "cassandra"]
+      },
+      "story_hooks": [
+        "파리스의 심판: 헤라/아테나/아프로디테 중 아프로디테 선택",
+        "헬레네를 스파르타에서 트로이로 데려옴 → 전쟁 발발",
+        "아폴론의 인도로 아킬레우스의 발뒤꿈치를 명중",
+        "필록테테스의 헤라클레스 활에 맞아 사망"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "helen",
+      "tier": 2,
+      "category": "트로이",
+      "names": {
+        "ko": "헬레네",
+        "en": "Helen",
+        "grc": "Ἑλένη",
+        "grc_translit": "Helénē",
+        "la": "Helena",
+        "la_note": "로마식 이름 (Helena)"
+      },
+      "role": "세상에서 가장 아름다운 여인, 트로이 전쟁의 원인",
+      "domains": ["미", "유혹", "운명"],
+      "symbols": ["거울", "베일", "백조(어머니 레다의 상징)"],
+      "family": {
+        "parents": ["zeus", "레다"],
+        "consorts": ["menelaus", "paris"],
+        "children": ["hermione"],
+        "siblings": ["clytemnestra", "polydeuces", "castor"]
+      },
+      "story_hooks": [
+        "제우스가 백조로 변신해 레다와의 사이에서 태어남",
+        "메넬라오스의 아내였으나 파리스를 따라 트로이로",
+        "트로이 함락 후 메넬라오스와 함께 스파르타로 귀환",
+        "후대 작가들은 진짜 헬레네는 이집트에 있었고 트로이에는 환영이 갔다는 변형 전승도 전함 (에우리피데스 『헬레네』)"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "priam",
+      "tier": 2,
+      "category": "트로이",
+      "names": {
+        "ko": "프리아모스",
+        "en": "Priam",
+        "grc": "Πρίαμος",
+        "grc_translit": "Príamos",
+        "la": "Priamus",
+        "la_note": "로마식 이름 (Priamus, 영어 Priam)"
+      },
+      "role": "트로이의 마지막 왕",
+      "domains": ["왕권", "부성", "비극"],
+      "symbols": ["왕홀", "긴 수염", "사신의 옷"],
+      "family": {
+        "parents": ["laomedon"],
+        "consorts": ["hecuba"],
+        "children": ["hector", "paris", "cassandra", "troilus", "deiphobus"],
+        "siblings": ["hesione"]
+      },
+      "story_hooks": [
+        "50명의 자식을 둠 (헥토르·파리스·카산드라 포함)",
+        "아킬레우스의 막사에 직접 들어가 헥토르 시신을 청함",
+        "트로이 함락 시 제우스 제단 앞에서 네옵톨레모스에게 살해",
+        "이름의 어원은 '몸값으로 산 자' — 어린 시절 헤라클레스의 트로이 약탈 때 누이 헤시오네가 베일로 사서 구함"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "hecuba",
+      "tier": 2,
+      "category": "트로이",
+      "names": {
+        "ko": "헤카베",
+        "en": "Hecuba",
+        "grc": "Ἑκάβη",
+        "grc_translit": "Hekábē",
+        "la": "Hecuba",
+        "la_note": "로마식 이름 (Hecuba). 영어 통상 Hecuba"
+      },
+      "role": "트로이 왕비, 헥토르·파리스·카산드라의 어머니",
+      "domains": ["모성", "비탄", "복수"],
+      "symbols": ["검은 베일", "개"],
+      "family": {
+        "parents": ["dymas"],
+        "consorts": ["priam"],
+        "children": ["hector", "paris", "cassandra", "troilus", "deiphobus", "polydorus"],
+        "siblings": []
+      },
+      "story_hooks": [
+        "파리스를 임신했을 때 트로이를 태우는 횃불을 낳는 꿈을 꿈",
+        "트로이 함락 후 노예가 되어 끌려감",
+        "막내 폴리도로스를 죽인 트라키아 왕 폴리메스토르에게 복수 → 그를 눈멀게 함",
+        "결국 개로 변신 (에우리피데스 『헤카베』)"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "andromache",
+      "tier": 2,
+      "category": "트로이",
+      "names": {
+        "ko": "안드로마케",
+        "en": "Andromache",
+        "grc": "Ἀνδρομάχη",
+        "grc_translit": "Andromáchē",
+        "la": "Andromacha",
+        "la_note": "로마식 형태 (Andromacha 또는 Andromache)"
+      },
+      "role": "헥토르의 아내, 트로이 함락의 비극적 증언자",
+      "domains": ["부부애", "모성", "비탄"],
+      "symbols": ["베일", "베틀"],
+      "family": {
+        "parents": ["eetion"],
+        "consorts": ["hector"],
+        "children": ["astyanax"],
+        "siblings": []
+      },
+      "story_hooks": [
+        "헥토르와 성문 앞에서의 마지막 작별 (『일리아스』 6권)",
+        "트로이 함락 시 아들 아스티아낙스가 성벽 위에서 던져져 죽음",
+        "전후 네옵톨레모스의 노예가 되어 에피로스로 끌려감",
+        "에우리피데스 『트로이 여인들』의 중심 인물"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "cassandra",
+      "tier": 2,
+      "category": "트로이",
+      "names": {
+        "ko": "카산드라",
+        "en": "Cassandra",
+        "grc": "Κασσάνδρα",
+        "grc_translit": "Kassándra",
+        "la": "Cassandra",
+        "la_note": "음차 동일"
+      },
+      "role": "트로이 공주, 아무도 믿지 않는 예언자",
+      "domains": ["예언", "광기", "비극"],
+      "symbols": ["헝클어진 머리", "월계수 가지", "도끼(사후)"],
+      "family": {
+        "parents": ["priam", "hecuba"],
+        "consorts": ["agamemnon"],
+        "children": [],
+        "siblings": ["hector", "paris"]
+      },
+      "story_hooks": [
+        "아폴론에게서 예언 능력을 받고 사랑을 거부 → 아무도 믿지 않는 저주",
+        "트로이 목마를 경계하라 외쳤으나 무시됨",
+        "함락 시 아테나 신전에서 소(小)아이아스에게 폭행당함",
+        "아가멤논의 첩으로 미케네에 끌려가 클리타임네스트라에게 함께 살해"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "aeneas",
+      "tier": 2,
+      "category": "트로이",
+      "names": {
+        "ko": "아이네이아스",
+        "en": "Aeneas",
+        "grc": "Αἰνείας",
+        "grc_translit": "Aineías",
+        "la": "Aeneas",
+        "la_note": "음차 동일. 로마 건국 시조"
+      },
+      "role": "아프로디테의 아들, 로마 건국 신화의 시조",
+      "domains": ["효", "경건(pietas)", "건국"],
+      "symbols": ["불타는 트로이", "노부친을 업은 모습", "트로이 신상(penates)"],
+      "family": {
+        "parents": ["aphrodite", "anchises"],
+        "consorts": ["creusa", "lavinia"],
+        "children": ["ascanius"],
+        "siblings": []
+      },
+      "story_hooks": [
+        "트로이 함락 시 늙은 아버지 안키세스를 업고 아들 아스카니우스 손을 잡고 탈출",
+        "지중해를 떠돌며 디도(카르타고 여왕)와 비극적 사랑",
+        "이탈리아에 도착해 라티움 정착, 로마 건국 토대",
+        "베르길리우스 『아이네이스』의 주인공"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "agamemnon",
+      "tier": 2,
+      "category": "트로이",
+      "names": {
+        "ko": "아가멤논",
+        "en": "Agamemnon",
+        "grc": "Ἀγαμέμνων",
+        "grc_translit": "Agamémnōn",
+        "la": "Agamemnon",
+        "la_note": "음차 동일"
+      },
+      "role": "그리스 연합군 총사령관, 미케네 왕",
+      "domains": ["왕권", "지휘", "오만"],
+      "symbols": ["황금가면(쉴리만 발굴)", "왕홀", "사자 문양"],
+      "family": {
+        "parents": ["atreus", "aerope"],
+        "consorts": ["clytemnestra", "cassandra"],
+        "children": ["iphigenia", "orestes", "electra"],
+        "siblings": ["menelaus"]
+      },
+      "story_hooks": [
+        "아르테미스의 분노를 풀려 딸 이피게네이아를 희생",
+        "브리세이스를 빼앗아 아킬레우스의 분노 촉발 (『일리아스』 시작)",
+        "트로이 함락 후 카산드라와 함께 귀국",
+        "목욕탕에서 클리타임네스트라와 아이기스토스에게 살해"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "menelaus",
+      "tier": 2,
+      "category": "트로이",
+      "names": {
+        "ko": "메넬라오스",
+        "en": "Menelaus",
+        "grc": "Μενέλαος",
+        "grc_translit": "Menélaos",
+        "la": "Menelaus",
+        "la_note": "음차 동일"
+      },
+      "role": "스파르타 왕, 헬레네의 남편",
+      "domains": ["결혼권", "복수", "왕권"],
+      "symbols": ["검", "스파르타 방패", "황소"],
+      "family": {
+        "parents": ["atreus", "aerope"],
+        "consorts": ["helen"],
+        "children": ["hermione"],
+        "siblings": ["agamemnon"]
+      },
+      "story_hooks": [
+        "헬레네가 납치된 직접 피해자 → 전쟁의 명분",
+        "파리스와 일대일 결투, 거의 이겼으나 아프로디테가 파리스를 구함",
+        "트로이 목마 안의 그리스 전사 중 한 명",
+        "트로이 함락 후 헬레네를 다시 데리고 8년 표류 끝에 귀국"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "clytemnestra",
+      "tier": 2,
+      "category": "트로이",
+      "names": {
+        "ko": "클리타임네스트라",
+        "en": "Clytemnestra",
+        "grc": "Κλυταιμνήστρα",
+        "grc_translit": "Klytaimnḗstra",
+        "la": "Clytaemnestra",
+        "la_note": "로마식 철자 Clytaemnestra (영어 Clytemnestra)"
+      },
+      "role": "아가멤논의 아내, 남편을 살해한 복수의 여왕",
+      "domains": ["복수", "왕권 찬탈", "모성의 분노"],
+      "symbols": ["도끼", "그물(아가멤논 살해 도구)", "붉은 양탄자"],
+      "family": {
+        "parents": ["tyndareus", "레다"],
+        "consorts": ["agamemnon", "aegisthus"],
+        "children": ["iphigenia", "orestes", "electra"],
+        "siblings": ["helen", "polydeuces", "castor"]
+      },
+      "story_hooks": [
+        "딸 이피게네이아 희생에 분노",
+        "아가멤논 부재 10년 동안 아이기스토스와 결탁",
+        "귀국한 아가멤논과 카산드라를 목욕탕에서 도끼로 살해",
+        "아들 오레스테스에게 모친살해 → 에리니에스의 추격 (아이스킬로스 『오레스테이아』)"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "diomedes",
+      "tier": 2,
+      "category": "트로이",
+      "names": {
+        "ko": "디오메데스",
+        "en": "Diomedes",
+        "grc": "Διομήδης",
+        "grc_translit": "Diomḗdēs",
+        "la": "Diomedes",
+        "la_note": "음차 동일. 헤라클레스가 죽인 트라키아 왕 디오메데스와 동명이인"
+      },
+      "role": "그리스 측 영웅, 아테나의 총애를 받은 전사",
+      "domains": ["전투", "지략", "신성 도전"],
+      "symbols": ["창", "방패", "아테나의 손길"],
+      "family": {
+        "parents": ["tydeus", "deipyle"],
+        "consorts": ["aegialia"],
+        "children": [],
+        "siblings": []
+      },
+      "story_hooks": [
+        "아프로디테에게 부상을 입혀 전장에서 쫓아냄",
+        "아레스에게도 창을 던져 부상을 입힘 (인간이 신 둘에게 상해)",
+        "오디세우스와 함께 트로이 신상(팔라디온)을 훔침",
+        "트로이 목마 안에 들어간 영웅 중 한 명"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "patroclus",
+      "tier": 2,
+      "category": "트로이",
+      "names": {
+        "ko": "파트로클로스",
+        "en": "Patroclus",
+        "grc": "Πάτροκλος",
+        "grc_translit": "Pátroklos",
+        "la": "Patroclus",
+        "la_note": "음차 동일"
+      },
+      "role": "아킬레우스의 절친, 그의 갑옷을 입고 전사한 영웅",
+      "domains": ["우정", "충성", "희생"],
+      "symbols": ["아킬레우스의 갑옷", "창"],
+      "family": {
+        "parents": ["menoetius"],
+        "consorts": [],
+        "children": [],
+        "siblings": []
+      },
+      "story_hooks": [
+        "어린 시절 사고로 동료를 죽이고 펠레우스 궁에 망명, 아킬레우스와 자라남",
+        "아킬레우스의 갑옷을 입고 트로이 측 전열을 무너뜨림",
+        "아폴론의 개입과 헥토르의 창에 죽음",
+        "장례식 경기에서 아킬레우스가 그를 위해 헬레니즘 시대까지 모범이 되는 장의 의례를 거행"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "ajax_telamon",
+      "tier": 2,
+      "category": "트로이",
+      "names": {
+        "ko": "아이아스(대)",
+        "en": "Ajax the Great",
+        "grc": "Αἴας",
+        "grc_translit": "Aías",
+        "la": "Aiax",
+        "la_note": "로마식 Aiax (영어 Ajax). 텔라몬의 아들, 로크리스의 소(小)아이아스와 구분"
+      },
+      "role": "그리스 측 거대한 방패의 전사",
+      "domains": ["힘", "방어", "광기"],
+      "symbols": ["거대한 사각 방패", "양"],
+      "family": {
+        "parents": ["telamon", "periboea"],
+        "consorts": ["tecmessa"],
+        "children": ["eurysaces"],
+        "siblings": ["teucer"]
+      },
+      "story_hooks": [
+        "헥토르와 일대일 결투 후 무승부, 선물 교환",
+        "아킬레우스 사후 그의 갑옷을 두고 오디세우스와 다투었으나 패배",
+        "분노로 광기에 빠져 양떼를 그리스 장군들로 착각해 학살",
+        "정신을 되찾은 후 수치로 자결 (소포클레스 『아이아스』)"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "nestor",
+      "tier": 2,
+      "category": "트로이",
+      "names": {
+        "ko": "네스토르",
+        "en": "Nestor",
+        "grc": "Νέστωρ",
+        "grc_translit": "Néstōr",
+        "la": "Nestor",
+        "la_note": "음차 동일"
+      },
+      "role": "필로스의 늙은 왕, 그리스 진영의 지혜로운 조언자",
+      "domains": ["지혜", "수사", "장수"],
+      "symbols": ["흰 수염", "황금잔", "전차"],
+      "family": {
+        "parents": ["neleus", "chloris"],
+        "consorts": ["eurydice_nestor"],
+        "children": ["antilochus", "thrasymedes", "pisistratus"],
+        "siblings": []
+      },
+      "story_hooks": [
+        "3세대를 살았다고 전해지는 장수의 노인",
+        "끝없이 늘어지는 옛이야기로 유명",
+        "오디세우스의 아들 텔레마코스가 아버지의 소식을 묻기 위해 그를 찾아옴 (『오디세이아』)",
+        "아들 안틸로코스를 트로이에서 잃음"
+      ],
+      "difficulty": 3
+    }
+  ]
+}
