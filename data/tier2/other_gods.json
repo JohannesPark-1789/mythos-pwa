@@ -134,7 +134,7 @@
       "domains": ["마법", "달", "교차로", "유령"],
       "symbols": ["횃불 둘", "열쇠", "개", "세 얼굴"],
       "family": {
-        "parents": ["perses", "asteria"],
+        "parents": ["perses_titan", "asteria"],
         "consorts": [],
         "children": [],
         "siblings": []

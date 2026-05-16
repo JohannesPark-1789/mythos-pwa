@@ -48,7 +48,7 @@
       "family": {
         "parents": ["chaos"],
         "consorts": ["uranus", "pontus", "tartarus"],
-        "children": ["uranus", "pontus", "ourea", "cronus", "rhea", "oceanus", "hyperion", "theia", "themis", "mnemosyne", "coeus", "phoebe", "crius", "iapetus", "cyclopes", "hekatonkheires"],
+        "children": ["uranus", "pontus", "ourea", "cronus", "rhea", "oceanus", "tethys", "hyperion", "theia", "themis", "mnemosyne", "coeus", "phoebe", "crius", "iapetus", "cyclopes", "hekatonkheires", "typhon", "charybdis", "nereus", "phorcys", "ceto", "thaumas", "eurybia"],
         "siblings": ["tartarus", "eros_primordial", "erebus", "nyx"]
       },
       "story_hooks": [
@@ -76,7 +76,7 @@
       "family": {
         "parents": ["gaia"],
         "consorts": ["gaia"],
-        "children": ["cronus", "rhea", "oceanus", "hyperion", "theia", "themis", "mnemosyne", "coeus", "phoebe", "crius", "iapetus", "cyclopes", "hekatonkheires", "aphrodite"],
+        "children": ["cronus", "rhea", "oceanus", "tethys", "hyperion", "theia", "themis", "mnemosyne", "coeus", "phoebe", "crius", "iapetus", "cyclopes", "hekatonkheires", "aphrodite", "erinyes", "giants"],
         "siblings": ["pontus", "ourea"]
       },
       "story_hooks": [
@@ -105,7 +105,7 @@
         "parents": ["uranus", "gaia"],
         "consorts": ["rhea"],
         "children": ["hestia", "demeter", "hera", "hades", "poseidon", "zeus", "chiron"],
-        "siblings": ["rhea", "oceanus", "hyperion", "theia", "themis", "mnemosyne", "coeus", "phoebe", "crius", "iapetus"]
+        "siblings": ["rhea", "oceanus", "tethys", "hyperion", "theia", "themis", "mnemosyne", "coeus", "phoebe", "crius", "iapetus"]
       },
       "story_hooks": [
         "아버지 우라노스를 낫으로 거세",
@@ -134,7 +134,7 @@
         "parents": ["uranus", "gaia"],
         "consorts": ["cronus"],
         "children": ["hestia", "demeter", "hera", "hades", "poseidon", "zeus"],
-        "siblings": ["cronus", "oceanus", "hyperion", "theia", "themis", "mnemosyne", "coeus", "phoebe", "crius", "iapetus"]
+        "siblings": ["cronus", "oceanus", "tethys", "hyperion", "theia", "themis", "mnemosyne", "coeus", "phoebe", "crius", "iapetus"]
       },
       "story_hooks": [
         "제우스를 크레타에 숨기고 크로노스에게 돌멩이를 먹임",
@@ -159,8 +159,8 @@
       "symbols": ["번개", "독수리", "참나무", "홀(scepter)"],
       "family": {
         "parents": ["cronus", "rhea"],
-        "consorts": ["hera", "metis", "themis", "demeter", "leto", "maia", "dione", "semele", "alcmene", "leda", "europa", "io"],
-        "children": ["athena", "apollo", "artemis", "ares", "hephaestus", "hebe", "eileithyia", "hermes", "dionysus", "persephone", "perseus", "heracles", "helen", "polydeuces", "minos", "rhadamanthus", "sarpedon", "muses", "horae", "moirai"],
+        "consorts": ["hera", "metis", "themis", "demeter", "leto", "maia", "dione", "semele", "alcmene", "leda", "europa", "io", "eurynome"],
+        "children": ["athena", "apollo", "artemis", "ares", "hephaestus", "hebe", "eileithyia", "hermes", "dionysus", "persephone", "perseus", "heracles", "helen", "polydeuces", "minos", "rhadamanthus", "sarpedon", "aeacus", "tantalus", "calliope", "clio", "erato", "euterpe", "melpomene", "polyhymnia", "terpsichore", "thalia", "urania", "dike", "eunomia", "eirene", "moirai", "aglaea", "euphrosyne", "thalia_charite"],
         "siblings": ["hestia", "demeter", "hera", "hades", "poseidon"]
       },
       "story_hooks": [
@@ -217,7 +217,7 @@
       "family": {
         "parents": ["cronus", "rhea"],
         "consorts": ["amphitrite", "medusa", "demeter"],
-        "children": ["triton", "polyphemus", "pegasus", "chrysaor", "theseus_alleged"],
+        "children": ["triton", "polyphemus", "pegasus", "chrysaor", "theseus", "charybdis"],
         "siblings": ["zeus", "hera", "hestia", "demeter", "hades"]
       },
       "story_hooks": [
@@ -328,7 +328,7 @@
         "parents": ["zeus", "metis"],
         "consorts": [],
         "children": [],
-        "siblings": ["다수의 제우스 자녀"]
+        "siblings": []
       },
       "story_hooks": [
         "제우스의 머리에서 완전무장한 채 태어남",
@@ -413,7 +413,7 @@
       "family": {
         "parents": ["zeus", "hera"],
         "consorts": ["aphrodite"],
-        "children": ["eros_son", "deimos", "phobos", "harmonia"],
+        "children": ["eros_son", "deimos", "phobos", "harmonia", "penthesilea"],
         "siblings": ["hephaestus", "hebe", "eileithyia"]
       },
       "story_hooks": [
@@ -725,7 +725,7 @@
       "family": {
         "parents": ["zeus", "alcmene"],
         "consorts": ["megara", "deianira", "hebe"],
-        "children": ["다수"],
+        "children": ["hyllus", "macaria"],
         "siblings": ["iphicles"]
       },
       "story_hooks": [

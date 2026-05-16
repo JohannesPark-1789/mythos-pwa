@@ -20,7 +20,7 @@
       "family": {
         "parents": ["chaos"],
         "consorts": ["erebus"],
-        "children": ["hemera", "aether", "hypnos", "thanatos", "moirai", "nemesis", "charon"],
+        "children": ["hemera", "aether", "hypnos", "thanatos", "moirai", "nemesis", "charon", "eris", "moros"],
         "siblings": ["gaia", "tartarus", "erebus", "eros_primordial"]
       },
       "story_hooks": [

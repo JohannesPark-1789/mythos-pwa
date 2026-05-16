@@ -107,7 +107,7 @@
       "family": {
         "parents": ["chaos"],
         "consorts": ["gaia"],
-        "children": ["typhon", "echidna"],
+        "children": ["typhon"],
         "siblings": ["gaia", "eros_primordial", "erebus", "nyx"]
       },
       "story_hooks": [

@@ -1,0 +1,442 @@
+{
+  "tier": 3,
+  "category": "티탄",
+  "schema_note": "Tier 3 첫 카테고리. 1세대 12 티탄 중 T1에 없는 10명(oceanus, tethys, hyperion, theia, themis, mnemosyne, coeus, phoebe, crius, iapetus) + 2세대 5명(helios, selene, eos, metis, dione) = 15. 호메로스/헤시오도스 전승 우선, 다전승 시 la_note에 기록.",
+  "characters": [
+    {
+      "id": "oceanus",
+      "tier": 3,
+      "category": "티탄",
+      "names": {
+        "ko": "오케아노스",
+        "en": "Oceanus",
+        "grc": "Ὠκεανός",
+        "grc_translit": "Ōkeanós",
+        "la": "Oceanus",
+        "la_note": "음차 동일. 영어 ocean의 어원"
+      },
+      "role": "세계를 둘러싼 거대한 강의 의인화, 1세대 티탄의 장남",
+      "domains": ["원초의 강", "대양", "흐름"],
+      "symbols": ["황소뿔", "감긴 뱀", "흐르는 강"],
+      "family": {
+        "parents": ["uranus", "gaia"],
+        "consorts": ["tethys"],
+        "children": ["doris", "metis", "dione", "clymene", "perse", "pleione", "eurynome", "electra_oceanid", "idyia", "clytie", "tyche", "callirrhoe"],
+        "siblings": ["tethys", "coeus", "crius", "hyperion", "iapetus", "theia", "rhea", "themis", "mnemosyne", "phoebe", "cronus", "cyclopes", "hekatonkheires"]
+      },
+      "story_hooks": [
+        "세계의 가장자리를 한 바퀴 도는 거대한 강 — 헤로도토스가 '시인들이 만든 허구'라 비판할 만큼 그리스 우주관의 근본 이미지",
+        "아내 테튀스와의 사이에서 3천 명의 오케아니데스(강의 여신)와 모든 강신을 낳음",
+        "티타노마키아에서 중립을 지켜 형벌을 면함 (헤시오도스)",
+        "헤라가 어린 시절 가이아에게서 오케아노스와 테튀스에게 맡겨져 양육 (『일리아스』 14권)"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "tethys",
+      "tier": 3,
+      "category": "티탄",
+      "names": {
+        "ko": "테튀스",
+        "en": "Tethys",
+        "grc": "Τηθύς",
+        "grc_translit": "Tēthýs",
+        "la": "Tethys",
+        "la_note": "음차 동일. 영웅 테티스(Thetis, 아킬레우스의 어머니)와 구별 — Tethys는 1세대 티탄, Thetis는 그녀의 손녀뻘 네레이스"
+      },
+      "role": "1세대 티탄 여신, 강·바다 님프(오케아니스·네레이스)의 어머니",
+      "domains": ["바다의 자궁", "양육", "민물"],
+      "symbols": ["베일", "물 항아리", "날개"],
+      "family": {
+        "parents": ["uranus", "gaia"],
+        "consorts": ["oceanus"],
+        "children": ["doris", "metis", "dione", "clymene", "perse", "pleione", "eurynome", "electra_oceanid", "idyia", "clytie", "tyche", "callirrhoe"],
+        "siblings": ["oceanus", "coeus", "crius", "hyperion", "iapetus", "theia", "rhea", "themis", "mnemosyne", "phoebe", "cronus", "cyclopes", "hekatonkheires"]
+      },
+      "story_hooks": [
+        "헤라를 양육해 준 양어머니 — 헤라가 닉스의 자식들을 추궁하지 못한 것처럼 테튀스에게도 경의",
+        "헤라가 칼리스토를 큰곰자리로 만든 제우스에 분노해, 테튀스에게 청해 큰곰자리가 바다(오케아노스)에 들어가지 못하게 막음 — 별자리가 지지 않는 이유의 신화적 설명",
+        "후대 천문학에서 토성의 위성 'Tethys'와 고생대 바다 '테티스해'(Tethys Ocean)에 이름이 남음",
+        "헤시오도스는 그녀와 오케아노스를 모든 강과 오케아니드 3천 자매의 부모로 열거 (『신통기』 337–370)"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "hyperion",
+      "tier": 3,
+      "category": "티탄",
+      "names": {
+        "ko": "히페리온",
+        "en": "Hyperion",
+        "grc": "Ὑπερίων",
+        "grc_translit": "Hyperíōn",
+        "la": "Hyperion",
+        "la_note": "음차 동일. 이름 뜻 '높이 있는 자'(ὑπέρ '위에' + εἶμι '가다')"
+      },
+      "role": "빛의 티탄, 태양·달·새벽의 아버지",
+      "domains": ["빛", "천체의 운행", "관찰의 시선"],
+      "symbols": ["떠오르는 빛", "동쪽 산"],
+      "family": {
+        "parents": ["uranus", "gaia"],
+        "consorts": ["theia"],
+        "children": ["helios", "selene", "eos"],
+        "siblings": ["oceanus", "tethys", "coeus", "crius", "iapetus", "theia", "rhea", "themis", "mnemosyne", "phoebe", "cronus", "cyclopes", "hekatonkheires"]
+      },
+      "story_hooks": [
+        "호메로스에서는 히페리온 자신이 태양을 운행 — 'Ἠέλιος Ὑπερίων'(『오디세이아』 1.8)은 '히페리온의 아들 헬리오스'이자 호환적으로 '히페리온 = 태양'",
+        "후대(헤시오도스 이후)에는 아들 헬리오스에게 태양 직무를 넘기고 빛 그 자체의 티탄으로 남음",
+        "티타노마키아 후 타르타로스에 갇힘 (전승에 따라 다름)",
+        "키츠의 미완성 서사시 『Hyperion』, 횔덜린 소설 『Hyperion』 등 낭만주의 문학의 핵심 모티프"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "theia",
+      "tier": 3,
+      "category": "티탄",
+      "names": {
+        "ko": "테이아",
+        "en": "Theia",
+        "grc": "Θεία",
+        "grc_translit": "Theía",
+        "la": "Theia",
+        "la_note": "음차 동일. 이름 자체가 '신성한 여인'(θεῖος '신적인'). 별칭 Euryphaessa(Εὐρυφάεσσα '멀리 빛나는 자')"
+      },
+      "role": "빛과 시각의 티탄 여신, 태양·달·새벽의 어머니",
+      "domains": ["광채", "시각", "황금의 신성"],
+      "symbols": ["황금", "빛나는 베일"],
+      "family": {
+        "parents": ["uranus", "gaia"],
+        "consorts": ["hyperion"],
+        "children": ["helios", "selene", "eos"],
+        "siblings": ["oceanus", "tethys", "coeus", "crius", "hyperion", "iapetus", "rhea", "themis", "mnemosyne", "phoebe", "cronus", "cyclopes", "hekatonkheires"]
+      },
+      "story_hooks": [
+        "핀다로스 『이스트미아 송시』 5번: '황금의 어머니 테이아여' — 그리스인이 황금에 신성을 부여하는 까닭은 그것이 테이아의 빛을 머금기 때문",
+        "고대 그리스인은 시각이 눈에서 나가는 광선(extramission)이라 믿었고, 테이아는 그 광선의 원천",
+        "현대 행성학의 'Theia 가설' — 원시지구에 충돌해 달을 만든 가상의 천체 이름이 그녀에게서 옴",
+        "어머니로서는 가장 환한 자식 셋(해·달·새벽)을 낳은 빛의 계보의 정점"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "themis",
+      "tier": 3,
+      "category": "티탄",
+      "names": {
+        "ko": "테미스",
+        "en": "Themis",
+        "grc": "Θέμις",
+        "grc_translit": "Thémis",
+        "la": "Themis",
+        "la_note": "음차 동일. 이름 자체가 '확립된 관습·신적 법'(τίθημι '세우다')"
+      },
+      "role": "신적 법·정의·관습의 여신, 델포이의 두 번째 신탁자, 제우스의 둘째 아내",
+      "domains": ["법", "정의", "신탁", "신적 질서"],
+      "symbols": ["저울", "검", "월계관", "베일"],
+      "family": {
+        "parents": ["uranus", "gaia"],
+        "consorts": ["zeus"],
+        "children": ["moirai", "dike", "eunomia", "eirene"],
+        "siblings": ["oceanus", "tethys", "coeus", "crius", "hyperion", "iapetus", "theia", "rhea", "mnemosyne", "phoebe", "cronus", "cyclopes", "hekatonkheires"]
+      },
+      "story_hooks": [
+        "델포이 신탁의 두 번째 주인 — 가이아 다음, 아폴론 이전 (아이스킬로스 『에우메니데스』 도입부)",
+        "제우스의 둘째 아내로서 모이라이(운명)와 호라이(질서·정의·평화)를 낳음 — 우주의 도덕 질서가 그녀에게서 나옴",
+        "프로메테우스에게 '제우스가 자기보다 큰 아들을 낳을 운명의 여자(테티스)와 결혼하지 말 것'을 미리 알려준 예언자 — 그래서 테티스는 인간 펠레우스에게 시집감",
+        "법원·법학 도상의 '눈가린 정의의 여신'은 그녀의 로마 후신 Iustitia에서 유래 — 원형 테미스는 눈을 가리지 않음"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "mnemosyne",
+      "tier": 3,
+      "category": "티탄",
+      "names": {
+        "ko": "므네모시네",
+        "en": "Mnemosyne",
+        "grc": "Μνημοσύνη",
+        "grc_translit": "Mnēmosýnē",
+        "la": "Mnemosyne",
+        "la_note": "음차 동일. 이름 자체가 '기억'(μνήμη). 영어 mnemonic(기억술)의 어원"
+      },
+      "role": "기억의 여신, 9 무사이의 어머니",
+      "domains": ["기억", "구전 전승", "시적 영감의 원천"],
+      "symbols": ["턱에 손을 댄 자세", "물(기억의 샘)"],
+      "family": {
+        "parents": ["uranus", "gaia"],
+        "consorts": ["zeus"],
+        "children": ["calliope", "clio", "erato", "euterpe", "melpomene", "polyhymnia", "terpsichore", "thalia", "urania"],
+        "siblings": ["oceanus", "tethys", "coeus", "crius", "hyperion", "iapetus", "theia", "rhea", "themis", "phoebe", "cronus", "cyclopes", "hekatonkheires"]
+      },
+      "story_hooks": [
+        "제우스와 9일 밤을 함께해 무사이 9자매를 낳음 — 영감은 기억에서 솟는다는 시학의 출발",
+        "문자가 없던 구전 시대의 시인은 기억(므네모시네)을 통해 무사이의 인도를 받음 — 호메로스가 첫 행에서 '여신이여, 노래하소서'라 부르는 그 어머니",
+        "저승에는 '기억의 샘 므네모시네'와 '망각의 샘 레테'가 있어, 오르페우스교 입문자는 '나는 므네모시네의 자식이다'라 외쳐야 함",
+        "보들레르 『악의 꽃』의 'la Mémoire' 의인화, 베르그송·프루스트의 기억 철학으로 이어지는 원형"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "coeus",
+      "tier": 3,
+      "category": "티탄",
+      "names": {
+        "ko": "코이오스",
+        "en": "Coeus",
+        "grc": "Κοῖος",
+        "grc_translit": "Koîos",
+        "la": "Coeus",
+        "la_note": "로마식 Coeus. 별칭 Polos(Πόλος '천구의 축'). 이름은 '묻는 자'(질문·지성의 어원)와 연결"
+      },
+      "role": "지성·천구의 축의 티탄, 레토와 아스테리아의 아버지",
+      "domains": ["지성", "신탁의 묻기", "북쪽 천구의 축"],
+      "symbols": ["천구의 축", "별"],
+      "family": {
+        "parents": ["uranus", "gaia"],
+        "consorts": ["phoebe"],
+        "children": ["leto", "asteria"],
+        "siblings": ["oceanus", "tethys", "crius", "hyperion", "iapetus", "theia", "rhea", "themis", "mnemosyne", "phoebe", "cronus", "cyclopes", "hekatonkheires"]
+      },
+      "story_hooks": [
+        "포이베와 결혼해 레토(아폴론·아르테미스의 어머니)와 아스테리아(헤카테의 어머니)를 낳음 — 델포이 신탁의 가계 핏줄",
+        "이름의 의미가 '묻는 자'(질문) — 신탁의 '문답' 자체를 의인화한 티탄",
+        "북쪽 하늘의 축(천구가 도는 회전축)을 의인화 — 별칭 폴로스",
+        "티타노마키아 후 타르타로스에 갇혔다는 후대 전승이 일반적"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "phoebe",
+      "tier": 3,
+      "category": "티탄",
+      "names": {
+        "ko": "포이베",
+        "en": "Phoebe",
+        "grc": "Φοίβη",
+        "grc_translit": "Phoíbē",
+        "la": "Phoebe",
+        "la_note": "음차 동일. 이름 자체가 '빛나는 자'(φοῖβος). 손자 아폴론의 별칭 Phoebus(포이보스)가 그녀에게서 옴"
+      },
+      "role": "달과 예언적 빛의 티탄 여신, 델포이 신탁의 세 번째 주인",
+      "domains": ["예언적 빛", "달", "신탁"],
+      "symbols": ["달", "월계관", "빛나는 베일"],
+      "family": {
+        "parents": ["uranus", "gaia"],
+        "consorts": ["coeus"],
+        "children": ["leto", "asteria"],
+        "siblings": ["oceanus", "tethys", "coeus", "crius", "hyperion", "iapetus", "theia", "rhea", "themis", "mnemosyne", "cronus", "cyclopes", "hekatonkheires"]
+      },
+      "story_hooks": [
+        "델포이 신탁의 세 번째 주인 (가이아 → 테미스 → 포이베 → 아폴론) — 손자에게 신탁을 선물로 양도",
+        "손자 아폴론의 별칭 '포이보스 아폴론'(빛나는 아폴론)은 할머니 포이베에게서 받은 이름",
+        "한 전승에서는 달 자체와 동일시 — 후대에 손녀 아르테미스가 달의 역할을 물려받음",
+        "아이스킬로스 『에우메니데스』 6–8행: 아폴론이 자기 신탁의 계보를 가이아 → 테미스 → 포이베로 거슬러 올라가 인용"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "crius",
+      "tier": 3,
+      "category": "티탄",
+      "names": {
+        "ko": "크리오스",
+        "en": "Crius",
+        "grc": "Κρῖος",
+        "grc_translit": "Krîos",
+        "la": "Crius",
+        "la_note": "음차 동일. 이름 자체가 '숫양'(κριός). 별자리 양자리(Aries)와 연결되는 후대 해석도 있음"
+      },
+      "role": "남쪽 하늘 기둥의 티탄, 별·풍요·전쟁 권능을 가진 자식들의 아버지",
+      "domains": ["남쪽 천구의 기둥", "별의 시기", "숫양"],
+      "symbols": ["숫양의 뿔", "별"],
+      "family": {
+        "parents": ["uranus", "gaia"],
+        "consorts": ["eurybia"],
+        "children": ["astraeus", "pallas_titan", "perses_titan"],
+        "siblings": ["oceanus", "tethys", "coeus", "hyperion", "iapetus", "theia", "rhea", "themis", "mnemosyne", "phoebe", "cronus", "cyclopes", "hekatonkheires"]
+      },
+      "story_hooks": [
+        "원시 바다 여신 에우리비아(폰토스의 딸)와 결합해 아스트라이오스(별의 신), 팔라스(전쟁 티탄), 페르세스(파괴 티탄)를 낳음",
+        "별·바람·전쟁의 권능이 모두 그의 자식들을 통해 나옴 — 자손 헤카테가 마법의 정점",
+        "1세대 12 티탄 중 신화적 일화가 가장 적은 티탄 — '구조만 채우는' 인물",
+        "후대 점성술에서 황도 12궁의 양자리(Aries)에 이름이 연결되기도 함"
+      ],
+      "difficulty": 4
+    },
+    {
+      "id": "iapetus",
+      "tier": 3,
+      "category": "티탄",
+      "names": {
+        "ko": "이아페토스",
+        "en": "Iapetus",
+        "grc": "Ἰαπετός",
+        "grc_translit": "Iapetós",
+        "la": "Iapetus",
+        "la_note": "음차 동일. 성경 노아의 아들 야벳(Japheth)과 동근 어원이라는 학설 — 인류 시조 위치가 겹침"
+      },
+      "role": "필멸 인류의 조상 티탄, 프로메테우스·에피메테우스·아틀라스의 아버지",
+      "domains": ["필멸성", "인류의 조상", "폭력"],
+      "symbols": ["창", "잘린 기둥"],
+      "family": {
+        "parents": ["uranus", "gaia"],
+        "consorts": ["clymene"],
+        "children": ["prometheus", "epimetheus", "atlas", "menoetius"],
+        "siblings": ["oceanus", "tethys", "coeus", "crius", "hyperion", "theia", "rhea", "themis", "mnemosyne", "phoebe", "cronus", "cyclopes", "hekatonkheires"]
+      },
+      "story_hooks": [
+        "오케아니드 클뤼메네와 결합해 프로메테우스·에피메테우스·아틀라스·메노이티오스 — 인류 운명을 결정한 4형제를 낳음",
+        "티타노마키아에서 가장 격렬히 싸운 티탄 — 헤시오도스는 그를 폭력적 본성의 화신으로 묘사",
+        "패배 후 타르타로스에 갇힘. 자식들은 각자 다른 형벌(아틀라스=하늘 떠받침, 프로메테우스=간 쪼임, 메노이티오스=벼락)",
+        "토성의 위성 'Iapetus'(반은 검고 반은 흰 표면)에 이름이 남음"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "helios",
+      "tier": 3,
+      "category": "티탄",
+      "names": {
+        "ko": "헬리오스",
+        "en": "Helios",
+        "grc": "Ἥλιος",
+        "grc_translit": "Hḗlios",
+        "la": "Sol",
+        "la_note": "로마식 Sol (영어 Helios). 후대에 아폴론과 동일시되지만 본래는 별개 신"
+      },
+      "role": "태양의 신, 매일 황금 사두마차로 하늘을 횡단하는 자",
+      "domains": ["태양", "빛", "맹세의 증인", "모든 것을 보는 시선"],
+      "symbols": ["태양 원반", "사두마차", "황금 잔", "광관(rays)"],
+      "family": {
+        "parents": ["hyperion", "theia"],
+        "consorts": ["perse", "clymene"],
+        "children": ["circe", "aeetes", "pasiphae", "perses", "phaethon"],
+        "siblings": ["selene", "eos"]
+      },
+      "story_hooks": [
+        "매일 동에서 서로 사두마차를 몰고, 밤에는 거대한 황금 잔(아폴로니오스 『아르고나우티카』)을 타고 오케아노스를 돌아 다시 동쪽으로",
+        "아들 파에톤이 마차를 빌려 몰다 통제 못 하고 지구를 태울 뻔, 제우스가 벼락으로 떨어뜨림 — 에리다노스 강에 추락",
+        "아레스와 아프로디테의 불륜을 헤파이스토스에게 일러바친 자 (『오디세이아』 8권) — 모든 것을 보는 자",
+        "오디세우스 일행이 헬리오스의 신성한 소를 잡아먹은 죄로 전원 익사 (『오디세이아』 12권). 후대에 아폴론과 융합되어 '태양의 아폴론' 이미지 형성"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "selene",
+      "tier": 3,
+      "category": "티탄",
+      "names": {
+        "ko": "셀레네",
+        "en": "Selene",
+        "grc": "Σελήνη",
+        "grc_translit": "Selḗnē",
+        "la": "Luna",
+        "la_note": "로마식 Luna (영어 Selene). 후대에 아르테미스·헤카테와 삼위일체로 묶이지만 본래는 별개 — 셀레네는 달 그 자체, 아르테미스는 달의 사냥꾼"
+      },
+      "role": "달의 여신, 은빛 마차로 밤하늘을 가로지르는 자",
+      "domains": ["달", "밤의 빛", "달의 순환"],
+      "symbols": ["반달 관", "은빛 마차", "긴 베일"],
+      "family": {
+        "parents": ["hyperion", "theia"],
+        "consorts": ["endymion", "zeus"],
+        "children": ["pandia"],
+        "siblings": ["helios", "eos"]
+      },
+      "story_hooks": [
+        "양치기 청년 엔디미온을 사랑해 제우스에게 청해 영원한 잠 + 영원한 청춘을 받게 함 → 매일 밤 잠든 그를 찾아가 50명의 딸을 낳음",
+        "헤시오도스에서는 제우스와의 사이에서 판디아(만월의 빛) 출산",
+        "후대 그리스·로마에서 아르테미스(Diana)와 헤카테(Trivia)와 함께 삼중 달 여신(triple Moon)으로 통합 — 키츠 『엔디미온』의 핵심 모티프",
+        "현대까지 selenology(달학), selenium(셀레늄, 달과 짝지은 원소) 등 어원으로 살아남"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "eos",
+      "tier": 3,
+      "category": "티탄",
+      "names": {
+        "ko": "에오스",
+        "en": "Eos",
+        "grc": "Ἠώς",
+        "grc_translit": "Ēṓs",
+        "la": "Aurora",
+        "la_note": "로마식 Aurora (영어 Aurora). 호메로스 별칭 ῥοδοδάκτυλος(rhododáktylos '장밋빛 손가락')"
+      },
+      "role": "새벽의 여신, 매일 오빠 헬리오스의 마차 앞을 달려 하늘 문을 여는 자",
+      "domains": ["새벽", "장밋빛 빛", "젊은 연인을 채는 자"],
+      "symbols": ["장밋빛 손가락", "사프란 옷", "두 마리 말이 끄는 마차"],
+      "family": {
+        "parents": ["hyperion", "theia"],
+        "consorts": ["astraeus", "tithonus"],
+        "children": ["boreas", "notus", "eurus", "zephyrus", "memnon"],
+        "siblings": ["helios", "selene"]
+      },
+      "story_hooks": [
+        "호메로스가 자주 부르는 '장밋빛 손가락의 에오스'(rhododactylos Eos) — 새벽 묘사의 정형구",
+        "사촌 아스트라이오스(별의 신)와 결합해 4 방위의 바람들과 새벽별을 낳음",
+        "트로이 왕자 티토노스를 사랑해 제우스에게 불사를 청했으나 '영원한 청춘'을 깜빡 — 늙어 쪼그라들다 매미가 됨. 둘 사이 아들이 멤논(트로이 전쟁의 에티오피아 왕)",
+        "케팔로스·오리온도 채간 '젊은 인간 사냥꾼' — 아프로디테의 저주(아레스를 빼앗긴 보복)로 끝없이 인간 청년에게 끌림"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "metis",
+      "tier": 3,
+      "category": "티탄",
+      "names": {
+        "ko": "메티스",
+        "en": "Metis",
+        "grc": "Μῆτις",
+        "grc_translit": "Mêtis",
+        "la": "Metis",
+        "la_note": "음차 동일. 이름 자체가 '슬기·계략'(μῆτις) — 호메로스에서 오디세우스의 별칭 πολύμητις(폴뤼메티스 '꾀 많은')의 어원"
+      },
+      "role": "지혜와 계략의 오케아니드, 아테나의 어머니",
+      "domains": ["지혜", "계략", "교묘함"],
+      "symbols": ["삼킴", "변신"],
+      "family": {
+        "parents": ["oceanus", "tethys"],
+        "consorts": ["zeus"],
+        "children": ["athena"],
+        "siblings": ["doris", "dione", "clymene", "perse", "pleione", "eurynome", "electra_oceanid", "idyia"]
+      },
+      "story_hooks": [
+        "크로노스가 삼킨 자식들을 토하게 한 약을 제우스에게 준 자 — 올림포스 왕권의 숨은 공로자",
+        "제우스의 첫 아내. 가이아의 예언: '메티스가 낳을 둘째 자식이 제우스를 쓰러뜨릴 것' → 제우스가 임신한 메티스를 통째로 삼킴",
+        "삼켜진 후에도 제우스 안에서 아테나를 키워 무장한 채 그의 머리에서 튀어나오게 함 — 제우스의 '안에서 조언하는 목소리'로 영원히 남음",
+        "이 신화는 '왕은 지혜를 자기 안에 가둬야 한다'는 정치 우화로 헤시오도스가 의도적으로 배치 (『신통기』 886–900)"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "dione",
+      "tier": 3,
+      "category": "티탄",
+      "names": {
+        "ko": "디오네",
+        "en": "Dione",
+        "grc": "Διώνη",
+        "grc_translit": "Diṓnē",
+        "la": "Dione",
+        "la_note": "음차 동일. 이름 자체가 '제우스의 여성형'(Διός의 여성). 호메로스 전승에선 아프로디테의 어머니, 헤시오도스 전승에선 아프로디테가 우라노스 거세에서 태어나 다른 계보 — 본 데이터셋은 두 전승 병기"
+      },
+      "role": "도도나 신탁의 여신, 호메로스 전승의 아프로디테 어머니",
+      "domains": ["고대 신탁", "위로", "신성한 떡갈나무"],
+      "symbols": ["떡갈나무", "비둘기"],
+      "family": {
+        "parents": ["oceanus", "tethys"],
+        "consorts": ["zeus"],
+        "children": [],
+        "siblings": ["doris", "metis", "clymene", "perse", "pleione", "eurynome", "electra_oceanid", "idyia"]
+      },
+      "story_hooks": [
+        "호메로스 『일리아스』 5권: 디오메데스에게 손목을 찔린 아프로디테가 어머니 디오네의 무릎에서 흐느낌 — '내 딸아' 부르며 위로. 본 데이터셋은 아프로디테 출생을 헤시오도스 전승(우라노스 거세)으로 채택 — children에 명시하지 않으나 호메로스 모친 설은 본 항목 la_note·story_hook에 기록",
+        "도도나(에피로스)의 가장 오래된 신탁소에서 제우스의 짝으로 모셔진 여신 — 헤라보다 더 오래된 짝",
+        "헤시오도스는 아프로디테 어머니 자리를 부정하고 '거세된 우라노스의 살에서 거품으로 태어남'으로 대체 — 두 전승이 영원히 병행",
+        "토성의 위성 'Dione', 베르길리우스 『아이네이스』의 'Dionaeus Caesar'(디오네의 후예 카이사르, 율리우스 가문이 아프로디테=베누스의 후손이므로) 등에 흔적"
+      ],
+      "difficulty": 3
+    }
+  ]
+}

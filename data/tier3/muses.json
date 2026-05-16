@@ -1,0 +1,239 @@
+{
+  "tier": 3,
+  "category": "기타신",
+  "schema_note": "무사이 9자매 中 8 (calliope는 T2에 이미 있음). 모두 zeus+mnemosyne의 딸. 카리테스 탈리아(thalia_charite)와 동명이인 무사이 탈리아는 id 'thalia'로 구분. 후대(헬레니즘기 이후)에 각 자매의 담당 분야가 고정 — 호메로스/헤시오도스 시대에는 9명이 모두 '노래'를 통칭함.",
+  "characters": [
+    {
+      "id": "clio",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "클레이오",
+        "en": "Clio",
+        "grc": "Κλειώ",
+        "grc_translit": "Kleiṓ",
+        "la": "Clio",
+        "la_note": "음차 동일. 이름 어원 κλέος '명성·영광' — '영광을 노래하는 자'"
+      },
+      "role": "역사의 무사이, 영웅들의 명성을 기록하는 자",
+      "domains": ["역사", "명성(kleos)", "기록"],
+      "symbols": ["두루마리", "트럼펫", "월계관"],
+      "family": {
+        "parents": ["zeus", "mnemosyne"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["calliope", "erato", "euterpe", "melpomene", "polyhymnia", "terpsichore", "thalia", "urania"]
+      },
+      "story_hooks": [
+        "이름의 어원 κλέος는 호메로스 영웅 시학의 핵심 — '영원한 명성'을 위해 죽음을 무릅쓰는 영웅 윤리의 근원",
+        "헤로도토스의 『역사』 1권이 'Κλειοῖ'로 명명된 전통 (후대 알렉산드리아 학자들이 9권을 9무사이에 헌정)",
+        "아프로디테가 아도니스를 사랑하는 것을 비웃었다가 그 보복으로 피에로스 왕을 사랑하게 되어 아들 휘아킨토스를 낳았다는 후대 전승",
+        "버몬트의 시인 클리오 출판사·신문 'Clio Awards'(광고제) 등 '역사·기록'의 의인화로 현대에 자주 인용"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "erato",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "에라토",
+        "en": "Erato",
+        "grc": "Ἐρατώ",
+        "grc_translit": "Eratṓ",
+        "la": "Erato",
+        "la_note": "음차 동일. 이름 어원 ἐρατός '사랑스러운' (ἔρως의 형용사) — 에로스와 동근"
+      },
+      "role": "사랑시·결혼시의 무사이",
+      "domains": ["사랑시", "서정시", "결혼 노래"],
+      "symbols": ["키타라(작은 리라)", "활과 화살(에로스 연관)", "장미관"],
+      "family": {
+        "parents": ["zeus", "mnemosyne"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["calliope", "clio", "euterpe", "melpomene", "polyhymnia", "terpsichore", "thalia", "urania"]
+      },
+      "story_hooks": [
+        "이름이 ἔρως와 동근이라 헬레니즘기에 '에로스의 무사이'로 굳어짐 — 사포·아나크레온의 시학을 후원",
+        "베르길리우스 『아이네이스』 7권 도입부에서 호명되는 무사이 — 라티움 정착과 결혼 갈등의 후반부 서사",
+        "아폴로니오스 『아르고나우티카』 3권(이아손과 메데이아의 사랑) 도입부에서 호명",
+        "르네상스 회화에서 키타라와 비둘기·화관을 든 모습으로 정형화 (라파엘로 「파르나소스」)"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "euterpe",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "에우테르페",
+        "en": "Euterpe",
+        "grc": "Εὐτέρπη",
+        "grc_translit": "Eutérpē",
+        "la": "Euterpe",
+        "la_note": "음차 동일. 이름 어원 εὖ '잘' + τέρπω '즐겁게 하다' — '잘 기쁘게 하는 자'"
+      },
+      "role": "음악·피리(아울로스)의 무사이",
+      "domains": ["음악", "피리(아울로스)", "서정"],
+      "symbols": ["아울로스(두 관 피리)", "월계관", "악보"],
+      "family": {
+        "parents": ["zeus", "mnemosyne"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["calliope", "clio", "erato", "melpomene", "polyhymnia", "terpsichore", "thalia", "urania"]
+      },
+      "story_hooks": [
+        "아울로스는 마르시아스가 아폴론과의 경연에서 사용해 가죽이 벗겨진 그 악기 — 에우테르페는 '신이 버린 악기'의 수호자",
+        "헤시오도스 『신통기』 도입부에서 다른 자매들과 함께 헬리콘 산에서 노래하는 9명 중 하나",
+        "프랑스 신고전주의에서 음악원·콘서트홀 명칭의 단골 (예: Théâtre Euterpe, 19세기 음악잡지 'L'Euterpe')",
+        "베르무다 시인 셰익스피어가 'Sweet Euterpe'로 부르는 등 르네상스 시문학의 음악적 영감의 의인화"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "melpomene",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "멜포메네",
+        "en": "Melpomene",
+        "grc": "Μελπομένη",
+        "grc_translit": "Melpoménē",
+        "la": "Melpomene",
+        "la_note": "음차 동일. 이름 어원 μέλπω '노래하다' — 원래 노래의 무사이였다 후대에 비극으로 좁혀짐"
+      },
+      "role": "비극의 무사이",
+      "domains": ["비극", "장중한 노래", "운명의 절규"],
+      "symbols": ["비극 가면(찡그린 표정)", "단검", "곤봉", "장화(코토르노스)"],
+      "family": {
+        "parents": ["zeus", "mnemosyne"],
+        "consorts": ["achelous"],
+        "children": ["sirens"],
+        "siblings": ["calliope", "clio", "erato", "euterpe", "polyhymnia", "terpsichore", "thalia", "urania"]
+      },
+      "story_hooks": [
+        "후대 전승에서 강의 신 아켈로오스와 결합해 세이렌 자매를 낳음 — 비극의 어머니가 매혹과 죽음의 노래를 낳은 셈",
+        "탈리아(희극)와 한 쌍으로 가장 자주 도상화 — '연극' 자체의 두 얼굴(찡그린 가면 + 웃는 가면)이 세계 어느 극장 입구에든 있음",
+        "에우리피데스·소포클레스·아이스킬로스 3대 비극시인의 수호 무사이 — 디오니소스 축제의 비극 경연 자체가 그녀에게 헌정",
+        "현대 영어 melodrama(멜로드라마)의 어원적 친족 — '노래(melos)+극(drama)'"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "polyhymnia",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "폴리휨니아",
+        "en": "Polyhymnia",
+        "grc": "Πολυύμνια",
+        "grc_translit": "Polyýmnia",
+        "la": "Polyhymnia",
+        "la_note": "음차 동일. 이름 어원 πολύς '많은' + ὕμνος '찬가' — '많은 찬가의 자'. 줄임 Πολύμνια(Polýmnia)로도 표기"
+      },
+      "role": "신성한 찬가·웅변·판토마임의 무사이",
+      "domains": ["성가", "웅변", "침묵의 시", "판토마임"],
+      "symbols": ["베일", "입술에 댄 손가락(침묵)", "류트", "사색하는 자세"],
+      "family": {
+        "parents": ["zeus", "mnemosyne"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["calliope", "clio", "erato", "euterpe", "melpomene", "terpsichore", "thalia", "urania"]
+      },
+      "story_hooks": [
+        "9자매 중 유일하게 베일을 쓴 정숙한 모습으로 도상화 — 신성한 노래의 위엄을 표현",
+        "후대 전승에서 오르페우스의 어머니로 칼리오페와 경쟁 (대다수는 칼리오페 채택)",
+        "기하학과 농경의 발명을 그녀에게 돌리는 후대(특히 비잔틴) 전승 — '많은 것의 노래'라는 이름이 분야 확장을 부추김",
+        "프랑스어 polyhymnie, 영어 polymnia로 음악·합창단 명칭에 흔히 사용"
+      ],
+      "difficulty": 4
+    },
+    {
+      "id": "terpsichore",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "테르프시코레",
+        "en": "Terpsichore",
+        "grc": "Τερψιχόρη",
+        "grc_translit": "Terpsichórē",
+        "la": "Terpsichore",
+        "la_note": "음차 동일. 이름 어원 τέρψις '즐거움' + χορός '춤·합창' — '춤의 즐거움'"
+      },
+      "role": "무용·합창의 무사이",
+      "domains": ["무용", "합창(코로스)", "음률"],
+      "symbols": ["리라", "발레 자세", "월계관"],
+      "family": {
+        "parents": ["zeus", "mnemosyne"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["calliope", "clio", "erato", "euterpe", "melpomene", "polyhymnia", "thalia", "urania"]
+      },
+      "story_hooks": [
+        "후대 전승에서 강의 신 아켈로오스와 결합해 세이렌을 낳음 (멜포메네 대안 전승) — 매혹적인 노래·춤의 어머니",
+        "그리스 비극의 합창단(코로스) 자체가 그녀의 영역 — 무대 한가운데서 춤추며 노래하는 코로스는 그녀에게 헌정된 의식",
+        "영어 terpsichorean(무용의·무용수의)의 어원 — '발레의 신' 같은 비유로 19~20세기 무용 비평에 자주 등장",
+        "르네상스 발레의 후원자로 메디치 가문 궁정에서 자주 형상화"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "thalia",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "탈리아",
+        "en": "Thalia",
+        "grc": "Θάλεια",
+        "grc_translit": "Tháleia",
+        "la": "Thalia",
+        "la_note": "음차 동일. 이름 어원 θάλλω '꽃피다·번성하다' — '풍성한 자'. 카리테스 중 한 명(thalia_charite)과 동명이인이나 별개 인물"
+      },
+      "role": "희극·목가시의 무사이",
+      "domains": ["희극", "목가시", "축제의 풍성함"],
+      "symbols": ["희극 가면(웃는 얼굴)", "양치기 지팡이(목가시)", "담쟁이 화관", "트럼펫"],
+      "family": {
+        "parents": ["zeus", "mnemosyne"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["calliope", "clio", "erato", "euterpe", "melpomene", "polyhymnia", "terpsichore", "urania"]
+      },
+      "story_hooks": [
+        "비극(멜포메네)과 한 쌍으로 도상화 — '웃는 가면'은 항상 그녀, '찡그린 가면'은 멜포메네",
+        "아리스토파네스·메난드로스의 그리스 희극, 플라우투스·테렌티우스의 로마 희극의 후원 무사이",
+        "테오크리토스·베르길리우스의 목가시(부콜릭) 영역까지 확장 — '풍요로운 시골 노래'의 의인화",
+        "토성의 위성 'Thalia'(소행성 23번)에 이름이 남음. 카리테스 탈리아와 구별 위해 학술 문헌에서 'Muse Thalia'로 표기"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "urania",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "우라니아",
+        "en": "Urania",
+        "grc": "Οὐρανία",
+        "grc_translit": "Ouranía",
+        "la": "Urania",
+        "la_note": "음차 동일. 이름 어원 οὐρανός '하늘' (우라노스와 동근) — '하늘의 자'"
+      },
+      "role": "천문의 무사이",
+      "domains": ["천문", "별의 운행", "철학적 관조"],
+      "symbols": ["천구", "컴퍼스", "별점", "긴 막대"],
+      "family": {
+        "parents": ["zeus", "mnemosyne"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["calliope", "clio", "erato", "euterpe", "melpomene", "polyhymnia", "terpsichore", "thalia"]
+      },
+      "story_hooks": [
+        "플라톤 『심포지엄』에서 '천상의 아프로디테(Aphrodite Urania)'와 이름을 공유 — '하늘적'이라는 형용사가 그녀의 본질",
+        "후대 르네상스 인문주의가 9자매 중 그녀를 가장 격상시킴 — 천문학과 점성술의 부흥에 따라",
+        "밀턴 『실낙원』 7권 도입부에서 호명 — '천상의 무사이여, 너의 신성한 도움으로 노래하리라'",
+        "천왕성(Uranus)과 어원 공유. 18세기 천문학자 카롤린 허셜에게 '천문의 무사이의 화신'이라는 별명이 붙음"
+      ],
+      "difficulty": 3
+    }
+  ]
+}
