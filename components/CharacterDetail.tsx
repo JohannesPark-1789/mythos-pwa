@@ -1,5 +1,6 @@
 'use client';
 import { useEffect } from 'react';
+import Link from 'next/link';
 import type { Character } from '@/types/character';
 import { characterName } from '@/lib/data';
 
@@ -114,7 +115,16 @@ export default function CharacterDetail({ character: c, onClose }: Props) {
             c.family.children.length ||
             c.family.siblings.length) > 0 && (
             <section>
-              <h3 className="text-sm text-ink-muted mb-1">가족</h3>
+              <div className="mb-1 flex items-center justify-between gap-2">
+                <h3 className="text-sm text-ink-muted">가족</h3>
+                <Link
+                  href={`/tree?focus=${c.id}&view=family`}
+                  onClick={onClose}
+                  className="rounded-card border border-soft bg-bg-secondary px-2.5 py-1 text-xs text-ink-secondary hover:bg-bg-primary"
+                >
+                  이 인물 중심으로 계보 보기 →
+                </Link>
+              </div>
               <dl>
                 <RelationRow label="부모" ids={c.family.parents} />
                 <RelationRow label="배우자" ids={c.family.consorts} />

@@ -1,5 +1,10 @@
-import TreeView from '@/components/TreeView';
+import { Suspense } from 'react';
+import TreePane from '@/components/TreePane';
 
 export default function TreePage() {
-  return <TreeView />;
+  return (
+    <Suspense fallback={null}>
+      <TreePane />
+    </Suspense>
+  );
 }
