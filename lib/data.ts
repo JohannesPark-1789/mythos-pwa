@@ -9,6 +9,7 @@ import tier2OtherGods from '@/data/tier2/other_gods.json';
 import tier2Underworld from '@/data/tier2/underworld.json';
 import tier2Primordial from '@/data/tier2/primordial.json';
 import type { Character, CharacterDataset, Category, Tier } from '@/types/character';
+import { EXTERNAL_NAMES_KO } from './external-names';
 
 const SOURCES: CharacterDataset[] = [
   tier1 as CharacterDataset,
@@ -38,6 +39,14 @@ export const TIERS: ReadonlyArray<Tier> = [1, 2, 3];
 
 export function getCharacter(id: string): Character | undefined {
   return allCharacters.find((c) => c.id === id);
+}
+
+// Resolves a family-field reference to the Korean display name.
+// Order: dataset character → external Korean alias → raw id (last resort).
+export function characterName(idOrName: string): string {
+  const c = allCharacters.find((c) => c.id === idOrName);
+  if (c) return c.names.ko;
+  return EXTERNAL_NAMES_KO[idOrName] ?? idOrName;
 }
 
 export function filterByCategory(

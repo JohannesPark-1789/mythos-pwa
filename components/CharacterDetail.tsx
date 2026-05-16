@@ -1,23 +1,19 @@
 'use client';
 import { useEffect } from 'react';
 import type { Character } from '@/types/character';
-import { getCharacter } from '@/lib/data';
+import { characterName } from '@/lib/data';
 
 type Props = {
   character: Character;
   onClose: () => void;
 };
 
-function relName(id: string): string {
-  return getCharacter(id)?.names.ko ?? id;
-}
-
 function RelationRow({ label, ids }: { label: string; ids: string[] }) {
   if (ids.length === 0) return null;
   return (
     <div className="grid grid-cols-[5rem_1fr] gap-3 py-1">
       <dt className="text-ink-muted text-sm">{label}</dt>
-      <dd className="text-sm">{ids.map(relName).join(', ')}</dd>
+      <dd className="text-sm">{ids.map(characterName).join(', ')}</dd>
     </div>
   );
 }
