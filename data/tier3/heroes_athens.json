@@ -1,0 +1,123 @@
+{
+  "tier": 3,
+  "category": "영웅",
+  "schema_note": "테세우스 사이클 가족 4 — 아버지(aegeus) + 미궁의 두 자매(ariadne, phaedra) + 비극의 아들(hippolytus). T1 theseus.parents=[aegeus,poseidon], theseus.consorts=[ariadne,phaedra,hippolyta], theseus.children=[hippolytus,demophon,acamas]; T2 minos.children=[ariadne,phaedra,...] 모두 일관됨.",
+  "characters": [
+    {
+      "id": "aegeus",
+      "tier": 3,
+      "category": "영웅",
+      "names": {
+        "ko": "아이게우스",
+        "en": "Aegeus",
+        "grc": "Αἰγεύς",
+        "grc_translit": "Aigeús",
+        "la": "Aegeus",
+        "la_note": "음차 동일. 에게 해(Aegean Sea)의 어원 주인공 — 아들의 죽음을 잘못 알고 바다에 투신한 데서"
+      },
+      "role": "아테네 왕, 테세우스의 (인간 측) 아버지",
+      "domains": ["왕권 계승", "기다림", "오해로 인한 자살"],
+      "symbols": ["바위 밑 검과 샌들(상속의 증표)", "검은 돛", "절벽"],
+      "family": {
+        "parents": ["pandion"],
+        "consorts": ["aethra", "medea"],
+        "children": ["theseus", "medus"],
+        "siblings": []
+      },
+      "story_hooks": [
+        "후사가 없자 델포이 신탁에 묻고 돌아가는 길에 트로이젠 왕 피테우스의 환대를 받음 — 피테우스가 신탁을 풀어 자기 딸 아이트라와 동침 주선",
+        "떠나며 바위 밑에 검과 샌들을 묻고 '아들이 자라 이걸 들어올리면 아테네로 보내라'. 같은 밤 포세이돈도 아이트라와 동침 → 테세우스의 이중 친부 전승",
+        "메데이아가 코린토스에서 도주해 와 아내가 됨 → 테세우스가 왔을 때 그를 알아보지 못한 채 메데이아의 부추김으로 독살하려다 검을 보고 알아봄. 메데이아 추방",
+        "테세우스가 크레타에서 미노타우로스를 처치하고 돌아올 때 흰 돛으로 바꾸기로 한 약속을 잊고 검은 돛 → 절벽에서 보고 죽은 줄 알아 바다에 투신 → 그 바다가 에게 해"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "ariadne",
+      "tier": 3,
+      "category": "영웅",
+      "names": {
+        "ko": "아리아드네",
+        "en": "Ariadne",
+        "grc": "Ἀριάδνη",
+        "grc_translit": "Ariádnē",
+        "la": "Ariadne",
+        "la_note": "음차 동일. 이름 어원 ἀρι- 강조 접두 + ἁγνός '신성한' — '가장 신성한 자'"
+      },
+      "role": "크레타 공주, 테세우스의 미궁 탈출을 도움, 낙소스에 버려진 후 디오니소스의 아내",
+      "domains": ["조력자", "버림받은 여인", "신의 신부"],
+      "symbols": ["실타래", "별자리(코로나 보레알리스)", "표범 마차(디오니소스 신부)"],
+      "family": {
+        "parents": ["minos", "pasiphae"],
+        "consorts": ["theseus", "dionysus"],
+        "children": [],
+        "siblings": ["phaedra", "androgeus", "glaucus_minos"]
+      },
+      "story_hooks": [
+        "공물로 끌려온 테세우스를 보고 사랑에 빠짐 → 다이달로스의 조언으로 실타래를 주어 미궁 탈출을 도움. 함께 도주",
+        "낙소스 섬에서 자고 있는 동안 테세우스가 그녀를 두고 떠남 (전승 다양: 잊었다 / 디오니소스의 명령 / 아테나의 명령)",
+        "디오니소스가 발견해 신부로 삼음. 결혼 화관은 별자리 북쪽왕관자리(Corona Borealis)로 승천",
+        "카탈루스, 오비디우스 『영웅 서한』, 슈트라우스 오페라 「낙소스의 아리아드네」, 헨델 「아리오단테」 등 서양 문학·음악의 핵심 모티프 — '버림받은 여인'의 원형"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "phaedra",
+      "tier": 3,
+      "category": "영웅",
+      "names": {
+        "ko": "파이드라",
+        "en": "Phaedra",
+        "grc": "Φαίδρα",
+        "grc_translit": "Phaídra",
+        "la": "Phaedra",
+        "la_note": "음차 동일. 이름 어원 φαιδρός '밝은' — '빛나는 자'. 비극적 운명과 대비되는 이름"
+      },
+      "role": "크레타 공주, 테세우스의 두 번째 아내, 의붓아들 히폴리토스를 사랑한 비극의 여인",
+      "domains": ["금지된 욕망", "거짓 고발", "자살"],
+      "symbols": ["편지(거짓 유서)", "목매단 끈", "베일"],
+      "family": {
+        "parents": ["minos", "pasiphae"],
+        "consorts": ["theseus"],
+        "children": ["demophon", "acamas"],
+        "siblings": ["ariadne", "androgeus", "glaucus_minos"]
+      },
+      "story_hooks": [
+        "아프로디테가 자신을 무시한 히폴리토스에게 보복하려 파이드라에게 광적인 사랑을 심음 → 의붓아들에게 사랑을 호소하나 거부",
+        "수치와 분노로 자살하며 '히폴리토스가 나를 범하려 했다'는 거짓 유서를 남김 → 테세우스가 포세이돈에게 청해 아들 처치",
+        "포세이돈이 보낸 황소가 마차의 말들을 미치게 해 히폴리토스가 끌려다녀 죽음. 진실은 아르테미스가 죽어가는 히폴리토스에게 와 밝힘 (에우리피데스 『히폴리토스』)",
+        "라신 『페드르』(1677), 세네카 『파이드라』, 영국 작가 사라 케인 『파이드라의 사랑』(1996) 등 — 신화 中 가장 자주 재해석된 비극적 여인"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "hippolytus",
+      "tier": 3,
+      "category": "영웅",
+      "names": {
+        "ko": "히폴리토스",
+        "en": "Hippolytus",
+        "grc": "Ἱππόλυτος",
+        "grc_translit": "Hippólytos",
+        "la": "Hippolytus",
+        "la_note": "음차 동일. 이름 어원 ἵππος '말' + λύω '풀다' — '말이 풀린 자' 또는 '말에 의해 풀려난 자' — 죽음 방식을 예고하는 이름"
+      },
+      "role": "테세우스의 아들, 아르테미스에게 헌신한 순결한 청년, 의붓어머니의 거짓 고발로 죽음",
+      "domains": ["순결", "사냥", "거짓 고발의 희생자"],
+      "symbols": ["사냥용 활", "마차", "야생 화관"],
+      "family": {
+        "parents": ["theseus", "hippolyta"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["demophon", "acamas"]
+      },
+      "story_hooks": [
+        "어머니가 아마존 여왕 히폴리테. 어머니의 야성적 기질을 물려받아 사냥과 아르테미스 숭배에 헌신 — 아프로디테 제단은 무시",
+        "아프로디테가 파이드라(의붓어머니)에게 자신을 향한 사랑을 심어 보복. 그가 거부하자 파이드라가 거짓 유서를 남기고 자살",
+        "테세우스가 진실을 알지 못한 채 아버지 포세이돈에게 '세 가지 소원' 中 하나를 사용해 아들의 죽음을 청 → 황소가 마차 말들을 놀라게 해 끌려 죽음",
+        "에우리피데스 『히폴리토스』(BCE 428) 마지막에 아르테미스가 등장해 진실을 밝히고 트로이젠 신전에서 영원히 처녀들의 예배를 받게 함. 라신·로벨 등 후대 재해석의 단골"
+      ],
+      "difficulty": 2
+    }
+  ]
+}

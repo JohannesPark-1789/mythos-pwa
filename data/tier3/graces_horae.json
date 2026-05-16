@@ -1,0 +1,181 @@
+{
+  "tier": 3,
+  "category": "기타신",
+  "schema_note": "카리테스(아글라이아·에우프로쉬네·탈리아) + 호라이(에우노미아·디케·에이레네). 카리테스는 zeus+eurynome의 딸, 호라이는 zeus+themis의 딸. T1 hephaestus.consorts에 이미 aglaea 있음. T1 zeus.children에 horae(묶음명)이 있는데 본 라운드에서 개별화 — back-reference 패치 라운드에서 horae 제거 + dike/eunomia/eirene 추가 예정.",
+  "characters": [
+    {
+      "id": "aglaea",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "아글라이아",
+        "en": "Aglaea",
+        "grc": "Ἀγλαΐα",
+        "grc_translit": "Aglaḯa",
+        "la": "Aglaea",
+        "la_note": "음차 동일. 이름 어원 ἀγλαός '빛나는·찬란한' — '광채'의 의인화. 영어 형태 Aglaia로도 표기"
+      },
+      "role": "카리테스(3미신) 중 막내, 광채와 화려함의 여신, 헤파이스토스의 두 번째 아내",
+      "domains": ["광채", "화려함", "장식의 아름다움"],
+      "symbols": ["황금 거울", "장미", "보석"],
+      "family": {
+        "parents": ["zeus", "eurynome"],
+        "consorts": ["hephaestus"],
+        "children": [],
+        "siblings": ["euphrosyne", "thalia_charite"]
+      },
+      "story_hooks": [
+        "헤시오도스 『신통기』 945–946: 카리테스 중 막내, 절름발이 헤파이스토스의 아내가 됨 — 호메로스의 아프로디테 아내 전승과 병행하는 별도 전승",
+        "세 카리테스 中 항상 가운데에 서서 광채를 발하는 자로 묘사 — 라파엘로·보티첼리 「프리마베라」의 삼미신 도상의 중심",
+        "헤시오도스 별칭 'Charis'(카리스, 단수형 '우아') — 호메로스 『일리아스』 18권에서 헤파이스토스의 아내 'Charis'가 곧 그녀",
+        "현대 영어 aglow(빛나는)는 직접 어원은 아니지만 의미적 친족 — 그녀의 본질이 '빛으로 둘러쌈'"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "euphrosyne",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "에우프로쉬네",
+        "en": "Euphrosyne",
+        "grc": "Εὐφροσύνη",
+        "grc_translit": "Euphrosýnē",
+        "la": "Euphrosyne",
+        "la_note": "음차 동일. 이름 어원 εὖ '잘' + φρήν '마음' — '좋은 마음·기쁨'의 의인화"
+      },
+      "role": "카리테스 中 기쁨·환희의 여신",
+      "domains": ["기쁨", "환희", "즐거운 마음"],
+      "symbols": ["꽃다발", "포도", "웃는 얼굴"],
+      "family": {
+        "parents": ["zeus", "eurynome"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["aglaea", "thalia_charite"]
+      },
+      "story_hooks": [
+        "헤시오도스 『신통기』 909: 세 카리테스의 두 번째로 호명 — '눈에서 사랑을 흘리는 자들'",
+        "라파엘로·보티첼리 「삼미신」 도상에서 보통 등을 보이는 자세 — 정면(아글라이아)·옆모습(탈리아)과 함께 '주는·받는·돌려주는' 은혜의 삼각 구조 표현",
+        "밀턴의 『L'Allegro』(쾌활한 자)에서 명시적으로 호명 — '오너라, 여신이여, 사랑스럽고 우아한 에우프로쉬네여'",
+        "토성의 위성·소행성에 그녀의 이름. 현대 의학에서 'euphoria'(다행감)의 직접 어원"
+      ],
+      "difficulty": 4
+    },
+    {
+      "id": "thalia_charite",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "탈리아(카리테스)",
+        "en": "Thalia (Grace)",
+        "grc": "Θαλία",
+        "grc_translit": "Thalía",
+        "la": "Thalia",
+        "la_note": "음차 동일. 이름 어원 θάλλω '꽃피다' — '번성'의 의인화. 무사이 탈리아(thalia, 희극)와 동명이인이지만 별개 인물 — id 'thalia_charite'로 구분"
+      },
+      "role": "카리테스 中 번영·풍요의 여신",
+      "domains": ["번성", "풍요", "꽃피는 아름다움"],
+      "symbols": ["꽃이 만개한 가지", "과실"],
+      "family": {
+        "parents": ["zeus", "eurynome"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["aglaea", "euphrosyne"]
+      },
+      "story_hooks": [
+        "헤시오도스 『신통기』 909: 세 카리테스의 첫째로 호명 — 다른 자매들보다 먼저 거명되는 '맏언니'",
+        "어원이 '꽃피우다·번성하다' — 봄의 만개, 청년의 활력, 잔치의 풍성함을 모두 의인화",
+        "무사이 탈리아(희극)와의 혼동은 고대 그리스어 화자도 자주 했음 — 핀다로스가 두 명을 한 송시에서 같이 호명하며 구별 명시",
+        "보티첼리 「프리마베라」에서 꽃의 여신 플로라 옆에 서는 인물로 종종 동일시 — 봄·꽃·번영의 의인화 클러스터의 일원"
+      ],
+      "difficulty": 4
+    },
+    {
+      "id": "eunomia",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "에우노미아",
+        "en": "Eunomia",
+        "grc": "Εὐνομία",
+        "grc_translit": "Eunomía",
+        "la": "Eunomia",
+        "la_note": "음차 동일. 이름 어원 εὖ '잘' + νόμος '법·관습' — '좋은 법치'의 의인화"
+      },
+      "role": "호라이(계절·질서의 3자매) 中 좋은 법치·시민 질서의 여신",
+      "domains": ["좋은 법치", "시민 질서", "공동체의 규율"],
+      "symbols": ["저울", "왕홀", "올리브 가지"],
+      "family": {
+        "parents": ["zeus", "themis"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["dike", "eirene", "moirai"]
+      },
+      "story_hooks": [
+        "헤시오도스 『신통기』 902–903: 호라이 세 자매(에우노미아·디케·에이레네)를 '필멸의 인간들에게 계절과 질서를 가져다주는 자들'로 묘사",
+        "솔론의 시 『에우노미아』(Eunomia)에서 좋은 법치가 도시를 구원한다는 정치적 비전의 핵심 인격 — 그리스 정치사상의 키워드",
+        "에이레네(평화)·디케(정의)와 함께 셋이 항상 같이 도상화 — 아테네 아고라의 호라이 신전 부조",
+        "현대 영어 economy의 형태소(eu-/-nom-)와 어원적 친족 — '잘 다스리는 규율'의 의미장"
+      ],
+      "difficulty": 4
+    },
+    {
+      "id": "dike",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "디케",
+        "en": "Dike",
+        "grc": "Δίκη",
+        "grc_translit": "Díkē",
+        "la": "Iustitia",
+        "la_note": "로마식 Iustitia (영어 Justice). 이름 자체가 '정의·재판'. 어머니 테미스(신적 법)와 짝지어 '인간적 정의'의 의인화"
+      },
+      "role": "호라이 中 인간 사회의 정의의 여신, 처녀별자리의 신화적 원형",
+      "domains": ["정의", "판결", "처녀별자리(Virgo)"],
+      "symbols": ["저울", "검", "보리 이삭"],
+      "family": {
+        "parents": ["zeus", "themis"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["eunomia", "eirene", "moirai"]
+      },
+      "story_hooks": [
+        "헤시오도스 『일과 날』 256–262: 디케가 부정한 판결을 보면 아버지 제우스에게 달려가 일러바침 — 정의가 제우스의 무릎에 호소하는 그림",
+        "어머니 테미스가 '신적 법(themis)'이라면 딸 디케는 '인간 사회의 법 적용' — 두 모녀가 정의의 두 층위를 나눠 맡음",
+        "황금시대에는 인간과 함께 살았으나 청동시대 이후 인간의 사악함에 절망해 하늘로 올라가 처녀자리(Virgo)가 됨 — 아라토스 『현상』",
+        "법원·법학의 'Iustitia' 도상(눈가린 정의의 여신, 저울)이 로마를 거쳐 그녀에게서 유래 — 단 그리스 원형 디케는 눈을 가리지 않음"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "eirene",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "에이레네",
+        "en": "Eirene",
+        "grc": "Εἰρήνη",
+        "grc_translit": "Eirḗnē",
+        "la": "Pax",
+        "la_note": "로마식 Pax (영어 Peace). 이름 자체가 '평화'. 현대 그리스 여성 이름 '이리니'(Ειρήνη)로 살아남"
+      },
+      "role": "호라이 中 평화의 여신, 어린 플루토스(부)를 안은 모습으로 유명",
+      "domains": ["평화", "전쟁의 부재", "번영의 토대"],
+      "symbols": ["올리브 가지", "풍요의 뿔", "홀(scepter)", "어린 플루토스"],
+      "family": {
+        "parents": ["zeus", "themis"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["eunomia", "dike", "moirai"]
+      },
+      "story_hooks": [
+        "아테네에 케피소도토스가 BCE 4세기에 세운 「에이레네와 어린 플루토스」 조각 — 평화가 부(富)를 양육한다는 정치적 메시지의 고전 작품 (뮌헨 글립토테크)",
+        "아리스토파네스 희극 『평화』(Εἰρήνη, BCE 421년) 주인공 — 전쟁의 도시에서 그녀를 끌어올리는 코믹 우화",
+        "로마 황제 아우구스투스가 'Pax Romana'(로마의 평화) 이데올로기로 그녀를 흡수 — 카이사르 광장의 'Ara Pacis Augustae' 제단",
+        "20세기 'Eirene' 여성 이름이 그리스 정교회에서 가장 흔한 이름 중 하나로 현대까지 살아남음"
+      ],
+      "difficulty": 3
+    }
+  ]
+}

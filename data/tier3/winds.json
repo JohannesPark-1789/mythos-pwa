@@ -1,0 +1,123 @@
+{
+  "tier": 3,
+  "category": "기타신",
+  "schema_note": "아네모이(바람의 4신) — 보레아스(북), 노토스(남), 에우로스(동), 제피로스(서). 모두 eos+astraeus의 자식 (헤시오도스 『신통기』 378–380). T2 iris.consorts에 zephyrus 이미 있음. 풍신 아이올로스(T2)는 '바람의 관리자'로 별도 — 그가 가둬두는 바람들이 이 4명.",
+  "characters": [
+    {
+      "id": "boreas",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "보레아스",
+        "en": "Boreas",
+        "grc": "Βορέας",
+        "grc_translit": "Boréas",
+        "la": "Aquilo",
+        "la_note": "로마식 Aquilo (영어 Boreas). 차가운 북풍, 트라키아 산맥에서 불어옴. 형용사 '보레알리스'(boreal, 북방의)의 어원"
+      },
+      "role": "북풍의 신, 격렬하고 차가운 바람",
+      "domains": ["북풍", "겨울 폭풍", "트라키아"],
+      "symbols": ["수염", "조개 나팔", "보라색 외투"],
+      "family": {
+        "parents": ["eos", "astraeus"],
+        "consorts": ["oreithyia"],
+        "children": ["zetes", "calais"],
+        "siblings": ["notus", "eurus", "zephyrus", "memnon"]
+      },
+      "story_hooks": [
+        "아테네 공주 오레이튀이아를 일리소스 강가에서 납치 → 트라키아로 데려가 결혼. 날개 달린 쌍둥이 아들 제테스·칼라이스(아르고나우타이)를 낳음",
+        "헤로도토스 『역사』 7권: BCE 480년 페르시아 함대가 아르테미시온 곶에서 폭풍에 침몰 → 아테네인이 보레아스에게 감사 제를 올림 ('처남'으로 호명)",
+        "오비디우스 『변신』 6.687–721에 오레이튀이아 납치 장면이 상세 — '구애로 안 되니 폭력으로'라는 격렬한 본성",
+        "현대 'borealis'(오로라 보레알리스, 북극광)와 카나다 'Boreal Forest'(보레알 숲)에 이름이 남음"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "notus",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "노토스",
+        "en": "Notus",
+        "grc": "Νότος",
+        "grc_translit": "Nótos",
+        "la": "Auster",
+        "la_note": "로마식 Auster (영어 Notus). 영어 austral(남방의)·호주 Australia의 어원. 여름 말 폭풍과 가을비를 가져오는 남풍"
+      },
+      "role": "남풍의 신, 가을의 폭풍우를 가져오는 자",
+      "domains": ["남풍", "가을 비", "곡식을 익히는 더운 바람"],
+      "symbols": ["젖은 베일", "비를 머금은 항아리", "어두운 구름"],
+      "family": {
+        "parents": ["eos", "astraeus"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["boreas", "eurus", "zephyrus", "memnon"]
+      },
+      "story_hooks": [
+        "헤시오도스 『신통기』 379–380: 에오스가 아스트라이오스에게 낳은 '강한 바람들' 중 하나",
+        "북아프리카에서 지중해로 부는 습한 더운 바람 — 그리스 본토에 폭우와 농작물 피해를 가져옴",
+        "오비디우스 『변신』 1권 데우칼리온 홍수 장면: 제우스가 노토스를 풀어 폭우로 인류를 휩쓸어버림 — 비의 사신",
+        "현대 'austral'(남방의), 라틴어권에서 'Australis'·'Auster'가 남쪽 방향·남반구를 가리키는 용어로 정착"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "eurus",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "에우로스",
+        "en": "Eurus",
+        "grc": "Εὖρος",
+        "grc_translit": "Eûros",
+        "la": "Eurus",
+        "la_note": "음차 동일. 동풍 또는 남동풍 — 4풍 중 신화 기록이 가장 적음. 호메로스는 4풍 중 그를 가장 드물게 언급"
+      },
+      "role": "동풍(또는 남동풍)의 신, 따뜻하고 비를 머금은 바람",
+      "domains": ["동풍", "남동풍", "따뜻한 가을 바람"],
+      "symbols": ["기울어진 항아리", "햇볕 받은 망토"],
+      "family": {
+        "parents": ["eos", "astraeus"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["boreas", "notus", "zephyrus", "memnon"]
+      },
+      "story_hooks": [
+        "호메로스 『오디세이아』 5.295: 오디세우스가 칼립소의 섬을 떠난 후 4풍이 동시에 일어 그의 뗏목을 박살냄 — 에우로스가 노토스에 부딪치고 보레아스가 제피로스를 공격",
+        "4풍 중 신화적 일화가 가장 적은 '구조용' 신 — 동·서·남·북의 4분 체계를 채우는 역할",
+        "베르길리우스 『아이네이스』 1권: 아이올로스가 풀어준 바람 폭풍에서 에우로스가 함께 일으킨 자",
+        "고대 풍배도(Anemoi 도상)에서 보레아스 맞은편이 노토스, 제피로스 맞은편이 에우로스 — 8풍 체계로 확장될 때 카이키아스·아펠리오테스 등으로 분화"
+      ],
+      "difficulty": 4
+    },
+    {
+      "id": "zephyrus",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "제피로스",
+        "en": "Zephyrus",
+        "grc": "Ζέφυρος",
+        "grc_translit": "Zéphyros",
+        "la": "Favonius",
+        "la_note": "로마식 Favonius (또는 Zephyrus). 부드러운 봄철 서풍. 영어 zephyr(미풍·산들바람)의 어원"
+      },
+      "role": "서풍의 신, 봄의 부드러운 미풍을 가져오는 자",
+      "domains": ["서풍", "봄의 부드러운 바람", "꽃피우는 숨결"],
+      "symbols": ["꽃잎이 흩날리는 망토", "어린 청년의 모습", "월계관"],
+      "family": {
+        "parents": ["eos", "astraeus"],
+        "consorts": ["iris", "chloris"],
+        "children": ["pothos"],
+        "siblings": ["boreas", "notus", "eurus", "memnon"]
+      },
+      "story_hooks": [
+        "아폴론이 사랑한 미소년 휘아킨토스를 자신도 사랑해 질투 → 아폴론이 던진 원반을 바람으로 휘어 휘아킨토스의 머리에 맞춰 죽임 → 흘린 피에서 히아신스 꽃",
+        "꽃의 님프 클로리스(로마식 플로라)를 납치해 결혼 — 보티첼리 「프리마베라」 오른쪽에 푸른 제피로스가 클로리스를 잡는 장면",
+        "헤르메스의 누이뻘 무지개 여신 이리스와의 사이에서 포토스(욕망의 의인화) 출생",
+        "현대 영어 zephyr(가볍고 부드러운 바람), 자동차/직물 브랜드명으로 자주 사용 — 4풍 중 가장 부드럽고 사랑받는 신"
+      ],
+      "difficulty": 2
+    }
+  ]
+}

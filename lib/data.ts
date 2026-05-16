@@ -8,6 +8,26 @@ import tier2NymphsMonsters from '@/data/tier2/nymphs_monsters.json';
 import tier2OtherGods from '@/data/tier2/other_gods.json';
 import tier2Underworld from '@/data/tier2/underworld.json';
 import tier2Primordial from '@/data/tier2/primordial.json';
+import tier3Titans from '@/data/tier3/titans.json';
+import tier3Primordial from '@/data/tier3/primordial.json';
+import tier3Muses from '@/data/tier3/muses.json';
+import tier3GracesHorae from '@/data/tier3/graces_horae.json';
+import tier3Winds from '@/data/tier3/winds.json';
+import tier3OtherGods from '@/data/tier3/other_gods.json';
+import tier3Underworld from '@/data/tier3/underworld.json';
+import tier3HeroesThebes from '@/data/tier3/heroes_thebes.json';
+import tier3HeroesPerseusHeracles from '@/data/tier3/heroes_perseus_heracles.json';
+import tier3HeroesThebesDionysus from '@/data/tier3/heroes_thebes_dionysus.json';
+import tier3HeroesAthens from '@/data/tier3/heroes_athens.json';
+import tier3HeroesMisc from '@/data/tier3/heroes_misc.json';
+import tier3TroyAtreus from '@/data/tier3/troy_atreus.json';
+import tier3TroyIthacaSlaves from '@/data/tier3/troy_ithaca_slaves.json';
+import tier3TroyGreeks from '@/data/tier3/troy_greeks.json';
+import tier3TroyTrojans from '@/data/tier3/troy_trojans.json';
+import tier3Nymphs from '@/data/tier3/nymphs.json';
+import tier3Nymphs2 from '@/data/tier3/nymphs_2.json';
+import tier3Monsters from '@/data/tier3/monsters.json';
+import tier3Monsters2 from '@/data/tier3/monsters_2.json';
 import type { Character, CharacterDataset, Category, Tier } from '@/types/character';
 import { EXTERNAL_NAMES_KO } from './external-names';
 
@@ -19,6 +39,26 @@ const SOURCES: CharacterDataset[] = [
   tier2OtherGods as CharacterDataset,
   tier2Underworld as CharacterDataset,
   tier2Primordial as CharacterDataset,
+  tier3Titans as CharacterDataset,
+  tier3Primordial as CharacterDataset,
+  tier3Muses as CharacterDataset,
+  tier3GracesHorae as CharacterDataset,
+  tier3Winds as CharacterDataset,
+  tier3OtherGods as CharacterDataset,
+  tier3Underworld as CharacterDataset,
+  tier3HeroesThebes as CharacterDataset,
+  tier3HeroesPerseusHeracles as CharacterDataset,
+  tier3HeroesThebesDionysus as CharacterDataset,
+  tier3HeroesAthens as CharacterDataset,
+  tier3HeroesMisc as CharacterDataset,
+  tier3TroyAtreus as CharacterDataset,
+  tier3TroyIthacaSlaves as CharacterDataset,
+  tier3TroyGreeks as CharacterDataset,
+  tier3TroyTrojans as CharacterDataset,
+  tier3Nymphs as CharacterDataset,
+  tier3Nymphs2 as CharacterDataset,
+  tier3Monsters as CharacterDataset,
+  tier3Monsters2 as CharacterDataset,
 ];
 
 export const allCharacters: ReadonlyArray<Character> = SOURCES.flatMap((s) => s.characters);

@@ -1,0 +1,239 @@
+{
+  "tier": 3,
+  "category": "기타신",
+  "schema_note": "올림포스 권속·의술·바다·공포·운명의 의인화 8명. T1/T2 기존 인물의 family 필드(hermes.children, apollo.children, poseidon.consorts/children, ares.children, aphrodite.children)에 이미 이들 id가 등록되어 있어 back-reference 일관됨.",
+  "characters": [
+    {
+      "id": "pan",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "판",
+        "en": "Pan",
+        "grc": "Πάν",
+        "grc_translit": "Pán",
+        "la": "Faunus",
+        "la_note": "로마식 Faunus (또는 Pan). 이름 어원이 '모두'(πᾶν)와 연결된다는 후대 해석은 잘못 — 본래 어원은 '먹이다·치다'(πάομαι, 목축). 영어 panic(공황)의 어원"
+      },
+      "role": "목축과 야생, 숲의 신 — 반인반양(염소 다리와 뿔)",
+      "domains": ["목축", "야생", "음악(피리)", "공황의 두려움"],
+      "symbols": ["판피리(쉬링크스)", "염소 다리·뿔", "양치기 지팡이", "솔방울"],
+      "family": {
+        "parents": ["hermes", "dryope"],
+        "consorts": ["syrinx", "echo", "pitys"],
+        "children": [],
+        "siblings": ["hermaphroditus"]
+      },
+      "story_hooks": [
+        "도주하는 님프 시링크스를 강가에서 잡으려는 순간 그녀가 갈대로 변해 — 갈대를 잘라 묶어 만든 것이 판피리(시링크스)",
+        "추격하는 그의 발자국 소리에 가축이 갑자기 미친 듯 도망치는 현상 = '판의 공황'(panikos) → 영어 panic",
+        "BCE 490년 마라톤 전투 직전 아테네 사신 페이디피데스가 산에서 판을 만나 '왜 너희는 나를 안 모시느냐'는 질책을 받음 → 전투 승리 후 아크로폴리스에 신전",
+        "플루타르코스가 전한 '위대한 판이 죽었다'(Megas Pan tethnēken) 일화 — 티베리우스 시대 선원이 들었다는 외침, 후대에 그리스 신앙의 종말 비유로 자주 인용"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "asclepius",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "아스클레피오스",
+        "en": "Asclepius",
+        "grc": "Ἀσκληπιός",
+        "grc_translit": "Asklēpiós",
+        "la": "Aesculapius",
+        "la_note": "로마식 Aesculapius (영어 Asclepius). 현대 의학의 'Rod of Asclepius'(뱀이 감긴 지팡이) 상징의 주인공 — 헤르메스의 카두케우스(두 마리 뱀)와 혼동 주의"
+      },
+      "role": "의술의 신, 아폴론의 아들",
+      "domains": ["의술", "치유", "꿈을 통한 치료"],
+      "symbols": ["뱀이 감긴 지팡이", "수염", "두루마리"],
+      "family": {
+        "parents": ["apollo", "coronis"],
+        "consorts": ["epione"],
+        "children": ["hygieia", "panacea"],
+        "siblings": ["orpheus_disputed"]
+      },
+      "story_hooks": [
+        "어머니 코로니스가 임신 중 다른 남자와 동침해 아폴론이 죽이지만, 시신에서 태아를 빼내 케이론에게 맡겨 키움 — 의술의 기원",
+        "죽은 자를 살려내는 경지에 이르자 하데스의 항의로 제우스가 벼락으로 처치 → 아폴론이 분노해 키클로페스를 죽임",
+        "에피다우로스의 그의 신전은 고대 그리스 최대 치료 성소 — 환자가 신전에서 잠자면 꿈에 신이 나타나 처방(인큐베이션 의례)",
+        "히포크라테스 선서에 '아폴론·아스클레피오스·휘기에이아·파나케이아를 증인으로'라 명시 — 현대 의사 윤리 선서의 신화적 뿌리"
+      ],
+      "difficulty": 1
+    },
+    {
+      "id": "hygieia",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "휘기에이아",
+        "en": "Hygieia",
+        "grc": "Ὑγίεια",
+        "grc_translit": "Hygíeia",
+        "la": "Salus",
+        "la_note": "로마식 Salus (영어 Hygieia). 이름 자체가 '건강'. 영어 hygiene(위생)의 어원"
+      },
+      "role": "건강·위생의 여신, 아스클레피오스의 딸",
+      "domains": ["건강", "위생", "예방의학"],
+      "symbols": ["뱀에게 술잔(약)을 먹이는 모습", "월계관"],
+      "family": {
+        "parents": ["asclepius", "epione"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["panacea"]
+      },
+      "story_hooks": [
+        "아버지 아스클레피오스가 '병의 치료'라면 그녀는 '병의 예방' — 두 부녀가 의학의 두 갈래를 분담",
+        "고대 의사들의 약을 담는 잔이 'Hygieia의 잔' — 뱀이 잔에 입을 대는 도상이 현재 약국·약학 협회의 표상",
+        "히포크라테스 선서의 두 번째 호명 신 — '아폴론·아스클레피오스·휘기에이아·파나케이아'",
+        "현대 'hygiene', 'hygienic' 어원. 프랑스어 hygiène, 독일어 Hygiene 등 모든 유럽어 의학·위생 용어의 뿌리"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "triton",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "트리톤",
+        "en": "Triton",
+        "grc": "Τρίτων",
+        "grc_translit": "Trítōn",
+        "la": "Triton",
+        "la_note": "음차 동일. 해왕성의 가장 큰 위성 'Triton'의 이름의 주인공"
+      },
+      "role": "바다의 메신저, 포세이돈과 암피트리테의 아들 — 상반신은 인간, 하반신은 어류",
+      "domains": ["바다의 전령", "파도의 진정·고양", "조개 나팔"],
+      "symbols": ["나선 조개 나팔", "삼지창", "어류 하반신"],
+      "family": {
+        "parents": ["poseidon", "amphitrite"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["polyphemus", "pegasus", "chrysaor", "theseus"]
+      },
+      "story_hooks": [
+        "조개 나팔로 파도를 부풀리거나 가라앉힘 — 데우칼리온 홍수 후 제우스의 명령에 따라 나팔을 불어 물을 거두어들임 (오비디우스 『변신』 1권)",
+        "아르고나우타이가 리비아 사막에서 길을 잃자 인간 모습으로 나타나 지중해로 가는 길을 안내 (아폴로니오스 『아르고나우티카』 4권)",
+        "후대 헬레니즘 미술에서 단일한 트리톤이 '바다의 트리톤들'(복수) 무리로 확장 — 네레이드를 짝지어 호위하는 바다 권속의 정형",
+        "베르니니의 「트리톤 분수」(로마 바르베리니 광장), 현대 해왕성 위성·해군 잠수정 명칭 등으로 살아남"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "amphitrite",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "암피트리테",
+        "en": "Amphitrite",
+        "grc": "Ἀμφιτρίτη",
+        "grc_translit": "Amphitrítē",
+        "la": "Salacia",
+        "la_note": "로마식 Salacia (영어 Amphitrite). 이름 어원 ἀμφί '둘러싸는' + τρίτη(불명) — '세계를 둘러싼 바다'의 의인화 가설"
+      },
+      "role": "바다의 여왕, 포세이돈의 아내, 네레이드 中 으뜸",
+      "domains": ["바다의 여왕", "파도", "고래·돌고래"],
+      "symbols": ["조개 왕관", "그물", "돌고래", "지중해의 파도"],
+      "family": {
+        "parents": ["nereus", "doris"],
+        "consorts": ["poseidon"],
+        "children": ["triton"],
+        "siblings": ["thetis", "galatea", "nereids"]
+      },
+      "story_hooks": [
+        "포세이돈의 구애를 피해 아틀라스 산으로 도망쳤다가, 돌고래가 그녀를 설득해 데려와 결혼 → 그 돌고래는 포세이돈이 보상으로 별자리 돌고래자리(Delphinus)로 승천",
+        "헤시오도스 『신통기』 243: 네레이드 50자매 중 첫째로 호명 (도리스 다음) — '바다를 다스리는 자'",
+        "케토스(바다괴물, 페르세우스가 안드로메다 구원할 때 등장)를 포세이돈의 명령으로 보내 카시오페이아의 자만을 처벌",
+        "그리스 도상에서 항상 포세이돈 옆에 마차나 돌고래를 타고 등장 — 헤라가 제우스에게 그러하듯 바다 권력의 여성 짝"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "deimos",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "데이모스",
+        "en": "Deimos",
+        "grc": "Δεῖμος",
+        "grc_translit": "Deîmos",
+        "la": "Metus",
+        "la_note": "로마식 Metus (또는 Pavor). 이름 자체가 '공포·테러'. 화성의 위성 'Deimos'의 이름의 주인공"
+      },
+      "role": "공포(테러)의 의인화, 아레스의 아들",
+      "domains": ["전장의 공포", "압도적 위협"],
+      "symbols": ["군마", "투구", "검은 그림자"],
+      "family": {
+        "parents": ["ares", "aphrodite"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["phobos", "harmonia", "eros_son"]
+      },
+      "story_hooks": [
+        "쌍둥이 동생 포보스와 함께 항상 아레스의 전차 옆에서 달리며 전장에 공포를 흩뿌림 — 『일리아스』 15권 119",
+        "헤시오도스 『방패』에서 헤라클레스의 방패 도상에 새겨진 공포의 화신 — '눈에서는 불꽃, 입에서는 흰 이를 드러낸 자'",
+        "포보스(panic, 갑작스러운 공황)와 구분 — 데이모스는 '지속적인 공포'(terror)에 가까움. 두 형제가 전장의 두 양상을 나눠 맡음",
+        "1877년 발견된 화성의 두 위성 중 더 작은 쪽이 'Deimos' — 더 큰 'Phobos'와 함께 화성(Mars=Ares)의 두 아들로 명명"
+      ],
+      "difficulty": 3
+    },
+    {
+      "id": "phobos",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "포보스",
+        "en": "Phobos",
+        "grc": "Φόβος",
+        "grc_translit": "Phóbos",
+        "la": "Pavor",
+        "la_note": "로마식 Pavor (또는 Terror). 이름 자체가 '두려움·공황'. 영어 phobia(공포증)·-phobic의 어원"
+      },
+      "role": "공황(갑작스러운 두려움)의 의인화, 아레스의 아들",
+      "domains": ["전장의 공황", "도주의 충동"],
+      "symbols": ["사자 머리(헤라클레스 방패 도상)", "검은 얼굴", "겁먹은 말"],
+      "family": {
+        "parents": ["ares", "aphrodite"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["deimos", "harmonia", "eros_son"]
+      },
+      "story_hooks": [
+        "전사들이 갑자기 무기를 던지고 도망치는 그 순간이 그의 작용 — 『일리아스』 4권 등에서 아레스의 동행자로 호명",
+        "헤라클레스의 방패에 새겨진 '사자 얼굴의 포보스' — 적의 눈을 보고 도망치게 하는 시각적 무기",
+        "스파르타에서는 포보스 신전이 있어 군대 출정 전에 제를 올림 — 적군에게 공포를 보내달라는 기원",
+        "현대 모든 -phobia 단어(claustrophobia, xenophobia, hydrophobia 등)의 형태소 — 그가 정신의학 어휘에 가장 많은 흔적을 남긴 신"
+      ],
+      "difficulty": 2
+    },
+    {
+      "id": "tyche",
+      "tier": 3,
+      "category": "기타신",
+      "names": {
+        "ko": "튀케",
+        "en": "Tyche",
+        "grc": "Τύχη",
+        "grc_translit": "Týchē",
+        "la": "Fortuna",
+        "la_note": "로마식 Fortuna (영어 Tyche 또는 Fortune). 헤시오도스에선 오케아니드(메티스와 자매), 핀다로스에선 제우스의 딸 — 본 데이터셋은 헤시오도스 채택"
+      },
+      "role": "운명·행운의 여신, 도시의 수호신",
+      "domains": ["행운", "우연", "도시의 운명"],
+      "symbols": ["풍요의 뿔", "방향타(운명의 키)", "공(굴러가는 운명)", "성벽 모양의 관(도시 수호)"],
+      "family": {
+        "parents": ["oceanus", "tethys"],
+        "consorts": [],
+        "children": [],
+        "siblings": ["doris", "metis", "dione", "clymene", "perse", "pleione", "eurynome", "electra_oceanid", "idyia"]
+      },
+      "story_hooks": [
+        "헤시오도스 『신통기』 360: 오케아니드 3천 자매 중 호명 — 이때는 마이너했으나 헬레니즘기에 위상이 폭등",
+        "헬레니즘 시대 알렉산드로스 정복 이후 '예측 불가능한 운명'이라는 정서와 맞물려 가장 광범위하게 모셔진 여신 — 안티오케이아의 「튀케 좌상」(에우티키데스)이 도시 의인화의 모델",
+        "방향타·공·풍요의 뿔을 함께 든 도상 — '예측 불가능하지만 풍요를 가져올 수도 있는 힘'",
+        "로마 Fortuna로 흡수되어 폼페이·오스티아 등 모든 도시에 신전. 영어 fortune, fortunate 등 어휘 광맥의 시조"
+      ],
+      "difficulty": 2
+    }
+  ]
+}
