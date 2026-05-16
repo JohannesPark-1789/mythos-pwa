@@ -36,10 +36,13 @@ export const metadata: Metadata = {
   manifest: `${basePath}/manifest.json`,
   icons: {
     icon: [
+      { url: `${basePath}/icons/favicon-16.png`, sizes: '16x16', type: 'image/png' },
+      { url: `${basePath}/icons/favicon-32.png`, sizes: '32x32', type: 'image/png' },
       { url: `${basePath}/icons/icon-192.png`, sizes: '192x192', type: 'image/png' },
       { url: `${basePath}/icons/icon-512.png`, sizes: '512x512', type: 'image/png' },
+      { url: `${basePath}/icons/icon.svg`, type: 'image/svg+xml' },
     ],
-    apple: [{ url: `${basePath}/icons/icon-192.png`, sizes: '192x192' }],
+    apple: [{ url: `${basePath}/icons/apple-touch-icon.png`, sizes: '180x180' }],
   },
 };
 
