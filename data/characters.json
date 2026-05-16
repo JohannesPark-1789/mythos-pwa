@@ -441,7 +441,7 @@
       "family": {
         "parents": ["uranus"],
         "consorts": ["hephaestus", "ares", "anchises", "adonis"],
-        "children": ["eros_son", "harmonia", "deimos", "phobos", "aeneas"],
+        "children": ["eros_son", "harmonia", "deimos", "phobos", "aeneas", "hermaphroditus"],
         "siblings": []
       },
       "story_hooks": [
@@ -468,13 +468,14 @@
       "domains": ["대장장이", "불", "장인", "기술"],
       "symbols": ["망치", "모루", "집게", "화산"],
       "family": {
-        "parents": ["hera"],
+        "parents": ["zeus", "hera"],
         "consorts": ["aphrodite", "aglaea"],
         "children": ["erichthonius"],
         "siblings": ["ares", "hebe", "eileithyia"]
       },
       "story_hooks": [
-        "헤라가 혼자 낳음 (또는 올림포스에서 던져져 절름발이가 됨)",
+        "호메로스 전승: 제우스와 헤라의 정식 아들 / 헤시오도스 전승: 헤라가 단성생식으로 낳음",
+        "올림포스에서 던져져 절름발이가 됨 (림노스 섬에 떨어짐)",
         "아킬레우스의 무구를 만듦",
         "판도라를 빚어냄",
         "아내 아프로디테의 불륜을 그물로 폭로"

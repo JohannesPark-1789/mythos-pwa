@@ -76,7 +76,7 @@
       "domains": ["미", "유혹", "운명"],
       "symbols": ["거울", "베일", "백조(어머니 레다의 상징)"],
       "family": {
-        "parents": ["zeus", "레다"],
+        "parents": ["zeus", "leda"],
         "consorts": ["menelaus", "paris"],
         "children": ["hermione"],
         "siblings": ["clytemnestra", "polydeuces", "castor"]
@@ -308,7 +308,7 @@
       "domains": ["복수", "왕권 찬탈", "모성의 분노"],
       "symbols": ["도끼", "그물(아가멤논 살해 도구)", "붉은 양탄자"],
       "family": {
-        "parents": ["tyndareus", "레다"],
+        "parents": ["tyndareus", "leda"],
         "consorts": ["agamemnon", "aegisthus"],
         "children": ["iphigenia", "orestes", "electra"],
         "siblings": ["helen", "polydeuces", "castor"]

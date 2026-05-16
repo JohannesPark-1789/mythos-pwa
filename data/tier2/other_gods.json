@@ -165,7 +165,7 @@
       "family": {
         "parents": ["nyx"],
         "consorts": ["zeus"],
-        "children": ["helen"],
+        "children": [],
         "siblings": ["hemera", "moirai"]
       },
       "story_hooks": [

@@ -253,7 +253,7 @@
         "parents": ["typhon", "echidna"],
         "consorts": [],
         "children": [],
-        "siblings": ["cerberus", "chimera", "sphinx"]
+        "siblings": ["cerberus", "chimera", "sphinx", "orthrus", "nemean_lion"]
       },
       "story_hooks": [
         "머리를 자를 때마다 두 개가 새로 자람 — 가운데 머리는 불사",
@@ -282,7 +282,7 @@
         "parents": ["typhon", "echidna"],
         "consorts": [],
         "children": [],
-        "siblings": ["cerberus", "hydra", "sphinx"]
+        "siblings": ["cerberus", "hydra", "sphinx", "orthrus", "nemean_lion"]
       },
       "story_hooks": [
         "리키아 지방을 황폐화하던 재앙",
@@ -311,7 +311,7 @@
         "parents": ["typhon", "echidna"],
         "consorts": [],
         "children": [],
-        "siblings": ["cerberus", "hydra", "chimera"]
+        "siblings": ["cerberus", "hydra", "chimera", "orthrus", "nemean_lion"]
       },
       "story_hooks": [
         "수수께끼: '아침에 네 발, 낮에 두 발, 저녁에 세 발로 걷는 것은?' — 답은 인간",
